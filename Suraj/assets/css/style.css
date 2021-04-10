@@ -1694,3 +1694,32 @@ section {
 #footer .credits a {
   transition: 0.3s;
 }
+
+.sub-menu{
+      max-height: 48px;
+    background: aliceblue;
+    display: flex;
+    padding: 0 4em;
+    justify-content: space-around;
+}
+.left-section,
+.right-section{
+  flex-basis: 50%;
+}
+/* selectors */
+.right-section>ul{
+      list-style: none;
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    align-items: center;
+}
+.right-section li{
+      height: 100%;
+    padding: .75em 0;
+    margin: 0 1em;
+
+}
