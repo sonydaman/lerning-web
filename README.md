@@ -24,3 +24,37 @@ html-4,
     dl
     -->dt
 
+
+    inline css dangerous
+        attribute style
+        in any tag we use
+    internal css
+    specificity google
+        selectors,
+        psudo classes,elements
+         !important
+    <style>
+        .myclass{
+            background:blue !important;
+        }
+        #id{
+            background:green;
+        }
+        .myclass:hover {}
+        .myclass:active{ }
+        .myclass:visited { }
+        .myclass:focus{ }
+        .myclass::before{
+            content:'';
+        }
+        .myclass::after{
+            content:'';
+        }
+    </style>
+    <p id="id" class="myclass">
+    <p  class="myclass">
+    <p  class="myclass">
+    <p class="myclass">
+    external css
+    <link href="">
+
