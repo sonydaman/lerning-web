@@ -11,6 +11,9 @@
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
   <link rel="stylesheet" href="./assets/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style.css">
   <title> project</title>
 </head>
 
@@ -71,13 +74,13 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://unsplash.it/1920/800?id=1" class="d-block w-100" alt="Loading">
+        <img src="https://unsplash.it/1920/800?id=1" class="d-block w-100 h-auto" alt="Loading">
       </div>
       <div class="carousel-item">
-        <img src="https://unsplash.it/1920/800?id=2" class="d-block w-100" alt="Loading">
+        <img src="https://unsplash.it/1920/800?id=2" class="d-block w-100 h-auto" alt="Loading">
       </div>
       <div class="carousel-item">
-        <img src="https://unsplash.it/1920/800?id=3" class="d-block w-100" alt="Loading">
+        <img src="https://unsplash.it/1920/800?id=3" class="d-block w-100 h-auto" alt="Loading">
       </div>
 
     </div>
@@ -98,7 +101,7 @@
       <div class="row">
         <div class="col-lg-7 col-md-7  col-sm-12">
           <div class="heading">
-            <h5 class="sub-heading">ABOUT US</h5>
+            <h5 class="sub-heading fs-roboto">ABOUT US</h5>
             <h2 class="main-heading">Eastend Visa Consulting</h2>
           </div>
           <div class="desc">
@@ -160,31 +163,39 @@
       <div class="container col-lg-8 col-sm-12">
         <div class="row">
           <div class="col-lg-6 col-sm-12">
-            <div class="country-card">
+            <div class="country-card shadow">
               <div class="style">
-                <h5>YENA KRUEW</h5>
                 <div class="country_img">
-                  <ul>
-                    <li class="country-flag"><img src="https://unsplash.it/50/50?id=6" /></li>
-                    <li class="country-name">USA</li>
+                  <ul class="p-0">
+                    <li class="country-flag h-full"><img class="rounded-circle w-100"
+                        src="https://unsplash.it/100/100?id=6" /></li>
+                    <li class="country-name justify-content-center align-items-center flex-column">
+                      <h5 class="p-0">YENA KRUEW</h5>
+                      <div class="country-container d-flex w-100">
+                        <img class="cntry-img rounded-circle" class="rounded-circle  w-100" src="https://unsplash.it/22"
+                          alt="">
+                        <p class="m-0">USA</p>
+                      </div>
+                      <div class="w-100 text-left star">
+                        <i class="fa fa-star active"></i>
+                        <i class="fa fa-star active"></i>
+                        <i class="fa fa-star active"></i>
+                        <i class="fa fa-star active"></i>
+                        <i class="fa fa-star active"></i>
+                      </div>
+                    </li>
                   </ul>
                 </div>
-                <div class="star">
-                  <i class="fa fa-star active"></i>
-                  <i class="fa fa-star active"></i>
-                  <i class="fa fa-star active"></i>
-                  <i class="fa fa-star active"></i>
-                  <i class="fa fa-star active"></i>
-                </div>
               </div>
-              <p> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+              <p class="text-muted"> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
+                ullamcorper ultricies
                 nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus
 
               </p>
             </div>
           </div>
           <div class="col-lg-6 col-sm-12">
-            <div class="country-card">
+            <div class="country-card shadow">
               <div class="style">
                 <H5>MONA KRUEW</H5>
                 <div class="country_img">
@@ -221,16 +232,13 @@
       <h5 class="section-sub-heading">POPULAR COUNTRY</h5>
       <h2 class="section-main-heading">Immigration Country</h2>
     </div>
-    <div class="card-group">
+    <div class="card-group m-0 m-lg-5 m-md-5">
       <div class="card immigration-card">
         <h5 class="card-title">United States</h5>
         <div class="flag">
-          <img class="img"
-            src="https://unsplash.it/80/55?id=8"
-            alt="us-flag">
+          <img class="img" src="https://unsplash.it/80/55?id=8" alt="us-flag">
         </div>
-        <img src="https://unsplash.it/895/633?id=11" class="card-img-top"
-          alt="Loading">
+        <img src="https://unsplash.it/895/633?id=11" class="card-img-top" alt="Loading">
         <div class="card-body">
 
           <p class="card-text">United States has egestas diam in arcu cursus euismod quis justo laoreet sit.</p>
@@ -247,12 +255,9 @@
       <div class="card immigration-card">
         <h5 class="card-title">United Kingdom</h5>
         <div class="flag">
-          <img class="img"
-            src="https://unsplash.it/80/55?id=10"
-            alt="uk-flag">
+          <img class="img" src="https://unsplash.it/80/55?id=10" alt="uk-flag">
         </div>
-        <img src="https://unsplash.it/895/633?id=12" class="card-img-top"
-          alt="Loading">
+        <img src="https://unsplash.it/895/633?id=12" class="card-img-top" alt="Loading">
         <div class="card-body">
 
           <p class="card-text">United Kingdom country has egestas diam in arcu cursus euismod quis justo inas.</p>
@@ -267,11 +272,9 @@
       <div class="card immigration-card">
         <h5 class="card-title">Australia</h5>
         <div class="flag">
-          <img class="img" src="https://unsplash.it/80/55?id=9"
-            alt="australia-flag">
+          <img class="img" src="https://unsplash.it/80/55?id=9" alt="australia-flag">
         </div>
-        <img src="https://unsplash.it/895/633?id=13"
-          class="card-img-top" alt="Loading">
+        <img src="https://unsplash.it/895/633?id=13" class="card-img-top" alt="Loading">
         <div class="card-body">
 
           <p class="card-text">Australia country has egestas diam in arcu cursus euismod quis justo laoreet sit.</p>
@@ -293,8 +296,7 @@
     <div class="row m-3">
       <div class="col-lg-4 col-sm-12 col-md-6">
         <div class="img-container">
-          <img class="image-service"
-            src="https://unsplash.it/294/221?id=14" alt="loading">
+          <img class="image-service" src="https://unsplash.it/294/221?id=14" alt="loading">
 
         </div>
         <div class="description">
@@ -305,8 +307,7 @@
 
       <div class="col-lg-4 col-sm-12 col-md-6">
         <div class="img-container">
-          <img class="image-service"
-            src="https://unsplash.it/294/221?id=15" alt="loading">
+          <img class="image-service" src="https://unsplash.it/294/221?id=15" alt="loading">
 
         </div>
         <div class="description">
@@ -318,8 +319,7 @@
 
       <div class="col-lg-4 col-sm-12 col-md-6">
         <div class="img-container">
-          <img class="image-service"
-            src="https://unsplash.it/294/221?id=15" alt="loading">
+          <img class="image-service" src="https://unsplash.it/294/221?id=15" alt="loading">
 
         </div>
         <div class="description">
@@ -331,8 +331,7 @@
 
       <div class="col-lg-4 col-sm-12 col-md-6">
         <div class="img-container">
-          <img class="image-service"
-            src="https://unsplash.it/294/221?id=16" alt="loading">
+          <img class="image-service" src="https://unsplash.it/294/221?id=16" alt="loading">
 
         </div>
         <div class="description">
@@ -345,8 +344,7 @@
 
       <div class="col-lg-4 col-sm-12 col-md-6">
         <div class="img-container">
-          <img class="image-service"
-            src="https://unsplash.it/294/221?id=17" alt="loading">
+          <img class="image-service" src="https://unsplash.it/294/221?id=17" alt="loading">
 
         </div>
         <div class="description">
@@ -358,8 +356,7 @@
 
       <div class="col-lg-4 col-sm-12 col-md-6">
         <div class="img-container">
-          <img class="image-service"
-            src="https://unsplash.it/294/221?id=18" alt="loading">
+          <img class="image-service" src="https://unsplash.it/294/221?id=18" alt="loading">
 
         </div>
         <div class="description">
@@ -378,8 +375,7 @@
   <section class="choose-us">
     <div class="row">
       <div class="col-lg-6">
-        <img class="image-girl" src="https://unsplash.it/884/914?id=19"
-          alt="Loading">
+        <img class="image-girl" src="https://unsplash.it/884/914?id=19" alt="Loading">
 
       </div>
       <div class="col-lg-6">
@@ -500,22 +496,18 @@
   <div class="container-fluid">
     <div class="row justify-content-center img-items">
       <div class="col-lg-3 img-item">
-        <img class="w-100"
-          src="https://unsplash.it/231/90?id=27" alt="loading">
+        <img class="w-100" src="https://unsplash.it/231/90?id=27" alt="loading">
 
       </div>
       <div class="col-lg-3 img-item">
-        <img class="w-100" src="https://unsplash.it/231/90?id=24"
-          alt="loading">
+        <img class="w-100" src="https://unsplash.it/231/90?id=24" alt="loading">
 
       </div>
       <div class="col-lg-3 img-item">
-        <img class="w-100" src="https://unsplash.it/231/90?id=25"
-          alt="loading">
+        <img class="w-100" src="https://unsplash.it/231/90?id=25" alt="loading">
       </div>
       <div class="col-lg-3 img-item">
-        <img class="w-100" src="https://unsplash.it/231/90?id=26"
-          alt="loading">
+        <img class="w-100" src="https://unsplash.it/231/90?id=26" alt="loading">
       </div>
     </div>
   </div>
@@ -529,8 +521,7 @@
         <div class="col-sm-12 col-md-12 card-group">
           <div class="card">
 
-            <img src="https://unsplash.it/294/221?id=14" class="card-img-top"
-              alt="Loading">
+            <img src="https://unsplash.it/294/221?id=14" class="card-img-top" alt="Loading">
             <div class="card-body">
               <h5 class="card-title">GRE Coaching</h5>
               <div class="list icon">
@@ -543,8 +534,7 @@
           </div>
           <div class="card">
 
-            <img src="https://unsplash.it/294/221?id=22" class="card-img-top"
-              alt="Loading">
+            <img src="https://unsplash.it/294/221?id=22" class="card-img-top" alt="Loading">
             <div class="card-body">
               <h5 class="card-title">IELTS Coaching</h5>
               <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -553,8 +543,7 @@
           </div>
           <div class="card">
 
-            <img src="https://unsplash.it/294/221?id=23" class="card-img-top"
-              alt="Loading">
+            <img src="https://unsplash.it/294/221?id=23" class="card-img-top" alt="Loading">
             <div class="card-body">
               <h5 class="card-title">TOEFL Coaching</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional

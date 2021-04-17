@@ -516,3 +516,17 @@
 .form-field p{
   color: #a6adbc;
 }
+.fs-roboto{
+  font-family: 'Roboto', sans-serif;
+}
+.cntry-img{
+  height: 22px;
+}
+.h-full{
+  height: 100px;
+}
+@media (max-width:500px) {
+    .choose-us .row::after{
+      background-color: transparent;
+    }
+}
