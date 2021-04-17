@@ -1,4 +1,4 @@
-UI Liabrary (html,css,jquery)
+UI Library (html,css,jquery)
 site (Mobile,Tablet,Website)
 
 startup code
@@ -45,6 +45,11 @@ latest version --
         <div class="row">
             <div class="col-sm-12 col-lg-2 col-md-6"></div>
             <div class="col-sm-12 col-lg-2 col-md-6"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6"></div>
         </div>
 
 
