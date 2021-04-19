@@ -532,4 +532,15 @@
     .choose-us .row::after{
       background-color: transparent;
     }
+    .navbar{
+      background-color: #f40;
+    }
+}
+@media (max-width:1370px) {
+  .choose-us .row::after{
+    background-color: transparent;
+  }
+  .navbar{
+    background-color: #f40;
+  }
 }
