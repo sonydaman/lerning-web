@@ -11,6 +11,9 @@
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
   <link rel="stylesheet" href="./assets/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style.css">
   <title> project</title>
 </head>
 
@@ -25,8 +28,8 @@
 
   </div>
   <!--start navbar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid ">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,13 +74,13 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://unsplash.it/1920/800?id=1" class="d-block w-100" alt="Loading">
+        <img src="https://unsplash.it/1920/800?id=1" class="d-block w-100 h-auto" alt="Loading">
       </div>
       <div class="carousel-item">
-        <img src="https://unsplash.it/1920/800?id=2" class="d-block w-100" alt="Loading">
+        <img src="https://unsplash.it/1920/800?id=2" class="d-block w-100 h-auto" alt="Loading">
       </div>
       <div class="carousel-item">
-        <img src="https://unsplash.it/1920/800?id=3" class="d-block w-100" alt="Loading">
+        <img src="https://unsplash.it/1920/800?id=3" class="d-block w-100 h-auto" alt="Loading">
       </div>
 
     </div>
@@ -98,18 +101,18 @@
       <div class="row">
         <div class="col-lg-7 col-md-7  col-sm-12">
           <div class="heading">
-            <h5 class="sub-heading">ABOUT US</h5>
+            <h5 class="sub-heading fs-roboto">ABOUT US</h5>
             <h2 class="main-heading">Eastend Visa Consulting</h2>
           </div>
           <div class="desc">
-            <p>
+            <p class="fs-roboto-1">
               We provide best visa services business,education,travel and
               immigration or lorem zone nuturs etiam justo orci cursus et enim
               sit amet, tempor eduction,travel and immigration or pursues nor
               desires to obtain pain of itself, bet it is pain lorem usplus
               nurmes.
             </p>
-            <p>
+            <p class="fs-roboto-1">
               Best immigration visa services for business,eduction,travel and immigration or pursues nor desires to
               obtain pain of itself, bet it is pain, but because occasionally can non dis nostra integer eleifend eros
               nulla senectus, packages as their default eastend of visa processing lorem zone nuturs etiam justo orci
@@ -122,10 +125,10 @@
                 <i class="fa fa-car"></i>
               </div>
               <div class="text-container">
-                <div class="content-title">
+                <div class="content-title fs-roboto-1">
                   Certified Company
                 </div>
-                <div class="content-desc">
+                <div class="content-desc fs-roboto-1">
                   Recommended hundreds of people for immigration
                 </div>
               </div>
@@ -135,10 +138,10 @@
                 <i class="fa fa-car"></i>
               </div>
               <div class="text-container">
-                <div class="content-title">
+                <div class="content-title fs-roboto-1">
                   Awards Winning
                 </div>
-                <div class="content-desc">
+                <div class="content-desc fs-roboto-1">
                   Trust by hundreds people for winning awards for visa
                 </div>
               </div>
@@ -154,55 +157,70 @@
   <div class="col-sm-12container-2">
     <section class="services">
       <div class="section-title">
-        <h5 class="section-sub-heading text-sub-heading">TESTIMONIAL</h5>
+        <h5 class="section-sub-heading text-sub-heading fs-roboto">TESTIMONIAL</h5>
         <h2 class="section-main-heading text-main-heading">Customer Feedback</h2>
       </div>
       <div class="container col-lg-8 col-sm-12">
         <div class="row">
           <div class="col-lg-6 col-sm-12">
-            <div class="country-card">
+            <div class="country-card shadow">
               <div class="style">
-                <h5>YENA KRUEW</h5>
                 <div class="country_img">
-                  <ul>
-                    <li class="country-flag"><img src="https://unsplash.it/50/50?id=6" /></li>
-                    <li class="country-name">USA</li>
+                  <ul class="p-0">
+                    <li class="country-flag h-full"><img class="rounded-circle w-100"
+                        src="https://unsplash.it/100/100?id=6" /></li>
+                    <li class="country-name justify-content-center align-items-center flex-column">
+                      <h5 class="p-0 fs-roboto">YENA KRUEW</h5>
+                      <div class="country-container d-flex w-100">
+                        <img class="cntry-img rounded-circle" class="rounded-circle  w-100" src="https://unsplash.it/22"
+                          alt="">
+                        <p class="m-0 fs-roboto-1">USA</p>
+                      </div>
+                      <div class="w-100 text-left star">
+                        <i class="fa fa-star active"></i>
+                        <i class="fa fa-star active"></i>
+                        <i class="fa fa-star active"></i>
+                        <i class="fa fa-star active"></i>
+                        <i class="fa fa-star active"></i>
+                      </div>
+                    </li>
                   </ul>
                 </div>
-                <div class="star">
-                  <i class="fa fa-star active"></i>
-                  <i class="fa fa-star active"></i>
-                  <i class="fa fa-star active"></i>
-                  <i class="fa fa-star active"></i>
-                  <i class="fa fa-star active"></i>
-                </div>
               </div>
-              <p> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+              <p class="text-muted fs-roboto-1"> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
+                ullamcorper ultricies
                 nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus
 
               </p>
             </div>
           </div>
           <div class="col-lg-6 col-sm-12">
-            <div class="country-card">
+            <div class="country-card shadow">
               <div class="style">
-                <H5>MONA KRUEW</H5>
                 <div class="country_img">
-                  <ul>
-                    <li class="country-flag">
-                      <img src="https://unsplash.it/50/50?id=7" alt="">
+                  <ul class="p-0">
+                    <li class="country-flag h-full"><img class="rounded-circle w-100"
+                       src="https://unsplash.it/100/100?id=7" alt="">
                     </li>
-                    <li class="country-name">India</li>
-                  </ul>
+                    <li class="country-name justify-content-center align-items-center flex-column">
+                      <h5 class="p-0 fs-roboto">Mona KRUEW</h5>
+                      <div class="country-container d-flex w-100">
+                        <img class="cntry-img rounded-circle" class="rounded-circle  w-100" src="https://unsplash.it/22"
+                          alt="">
+                        <p class="m-0fs-roboto-1">India</p>
+                      </div>
+                <div class="w-100 text-left star">
+                  <i class="fa fa-star active"></i>
+                  <i class="fa fa-star active"></i>
+                  <i class="fa fa-star active"></i>
+                  <i class="fa fa-star active"></i>
+                  <i class="fa fa-star active"></i>
                 </div>
-                <div class="star">
-                  <i class="fa fa-star active"></i>
-                  <i class="fa fa-star active"></i>
-                  <i class="fa fa-star active"></i>
-                  <i class="fa fa-star active"></i>
+                </li>
+                </ul>
                 </div>
               </div>
-              <p> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+              <p class="text-muted fs-roboto-1"> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
                 nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus
 
               </p>
@@ -218,22 +236,19 @@
 
   <div class=" container-3">
     <div class="section-title">
-      <h5 class="section-sub-heading">POPULAR COUNTRY</h5>
+      <h5 class="section-sub-heading fs-roboto">POPULAR COUNTRY</h5>
       <h2 class="section-main-heading">Immigration Country</h2>
     </div>
-    <div class="card-group">
+    <div class="card-group m-0 m-lg-5 m-md-5">
       <div class="card immigration-card">
-        <h5 class="card-title">United States</h5>
+        <h5 class="card-title fs-roboto">United States</h5>
         <div class="flag">
-          <img class="img"
-            src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/12/153-united-states-of-america_new.png"
-            alt="us-flag">
+          <img class="img" src="https://unsplash.it/80/55?id=8" alt="us-flag">
         </div>
-        <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/us.jpg" class="card-img-top"
-          alt="Loading">
+        <img src="https://unsplash.it/895/633?id=11" class="card-img-top" alt="Loading">
         <div class="card-body">
 
-          <p class="card-text">United States has egestas diam in arcu cursus euismod quis justo laoreet sit.</p>
+          <p class="card-text fs-roboto-1">United States has egestas diam in arcu cursus euismod quis justo laoreet sit.</p>
           <div class="card-btn">
             <a href="">
               Read More
@@ -245,17 +260,14 @@
         </div>
       </div>
       <div class="card immigration-card">
-        <h5 class="card-title">United Kingdom</h5>
+        <h5 class="card-title fs-roboto">United Kingdom</h5>
         <div class="flag">
-          <img class="img"
-            src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/12/262-united-kingdom.png"
-            alt="uk-flag">
+          <img class="img" src="https://unsplash.it/80/55?id=10" alt="uk-flag">
         </div>
-        <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/uk.jpg" class="card-img-top"
-          alt="Loading">
+        <img src="https://unsplash.it/895/633?id=12" class="card-img-top" alt="Loading">
         <div class="card-body">
 
-          <p class="card-text">United Kingdom country has egestas diam in arcu cursus euismod quis justo inas.</p>
+          <p class="card-text fs-roboto-1">United Kingdom country has egestas diam in arcu cursus euismod quis justo inas.</p>
           <div class="card-btn">
             <a href="">
               Read More
@@ -265,16 +277,14 @@
         </div>
       </div>
       <div class="card immigration-card">
-        <h5 class="card-title">Australia</h5>
+        <h5 class="card-title fs-roboto">Australia</h5>
         <div class="flag">
-          <img class="img" src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/12/130-australia.png"
-            alt="australia-flag">
+          <img class="img" src="https://unsplash.it/80/55?id=9" alt="australia-flag">
         </div>
-        <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/australia-2.jpg"
-          class="card-img-top" alt="Loading">
+        <img src="https://unsplash.it/895/633?id=13" class="card-img-top" alt="Loading">
         <div class="card-body">
 
-          <p class="card-text">Australia country has egestas diam in arcu cursus euismod quis justo laoreet sit.</p>
+          <p class="card-text fs-roboto-1">Australia country has egestas diam in arcu cursus euismod quis justo laoreet sit.</p>
           <div class="card-btn">
             <a href="">
               Read More
@@ -287,57 +297,53 @@
   </div>
   <section class="services">
     <div class="section-title">
-      <h5 class="section-sub-heading text-sub-heading">OUR Services</h5>
+      <h5 class="section-sub-heading text-sub-heading fs-roboto">OUR Services</h5>
       <h2 class="section-main-heading text-main-heading">Services We Provide</h2>
     </div>
     <div class="row m-3">
       <div class="col-lg-4 col-sm-12 col-md-6">
         <div class="img-container">
-          <img class="image-service"
-            src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/services22.jpg" alt="loading">
+          <img class="image-service" src="https://unsplash.it/294/221?id=14" alt="loading">
 
         </div>
         <div class="description">
-          <h5>Education Visa</h5>
-          <p>Education Visa amet risus snm. Elementum sagittis vitae et leo duis ut diam quam nul</p>
+          <h5 class="fs-roboto">Education Visa</h5>
+          <p class="fs-roboto-1">Education Visa amet risus snm. Elementum sagittis vitae et leo duis ut diam quam nul</p>
         </div>
       </div>
 
       <div class="col-lg-4 col-sm-12 col-md-6">
         <div class="img-container">
-          <img class="image-service"
-            src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/services11.jpg" alt="loading">
+          <img class="image-service" src="https://unsplash.it/294/221?id=15" alt="loading">
 
         </div>
         <div class="description">
-          <h5>Business Visa</h5>
-          <p>Business Visa amet risus null. Elementum sagittis vitae et leo duis ut diam quam nul.</p>
-
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-sm-12 col-md-6">
-        <div class="img-container">
-          <img class="image-service"
-            src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/services33.jpg" alt="loading">
-
-        </div>
-        <div class="description">
-          <h5>Work Visa</h5>
-          <p>Work Visa amet risus null. Elementum sagittis vitae et leo duis ut diam quam nul lorem.</p>
+          <h5 class="fs-roboto">Business Visa</h5>
+          <p class="fs-roboto-1">Business Visa amet risus null. Elementum sagittis vitae et leo duis ut diam quam nul.</p>
 
         </div>
       </div>
 
       <div class="col-lg-4 col-sm-12 col-md-6">
         <div class="img-container">
-          <img class="image-service"
-            src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/services44.jpg" alt="loading">
+          <img class="image-service" src="https://unsplash.it/294/221?id=15" alt="loading">
 
         </div>
         <div class="description">
-          <h5>Family Visa</h5>
-          <p>Family Visa amet risus snm. Elementum sagittis vitae et leo duis ut diam quam nul.</p>
+          <h5 class="fs-roboto">Work Visa</h5>
+          <p class="fs-roboto-1">Work Visa amet risus null. Elementum sagittis vitae et leo duis ut diam quam nul lorem.</p>
+
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-12 col-md-6">
+        <div class="img-container">
+          <img class="image-service" src="https://unsplash.it/294/221?id=16" alt="loading">
+
+        </div>
+        <div class="description">
+          <h5 class="fs-roboto">Family Visa</h5>
+          <p class="fs-roboto-1">Family Visa amet risus snm. Elementum sagittis vitae et leo duis ut diam quam nul.</p>
 
         </div>
 
@@ -345,26 +351,24 @@
 
       <div class="col-lg-4 col-sm-12 col-md-6">
         <div class="img-container">
-          <img class="image-service"
-            src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/services55.jpg" alt="loading">
+          <img class="image-service" src="https://unsplash.it/294/221?id=17" alt="loading">
 
         </div>
         <div class="description">
-          <h5>Tourust Visa</h5>
-          <p>Tourist Visa amet risus snm. Elementum sagittis vitae et leo duis ut diam quam nul.</p>
+          <h5 class="fs-roboto">Tourust Visa</h5>
+          <p class="fs-roboto-1">Tourist Visa amet risus snm. Elementum sagittis vitae et leo duis ut diam quam nul.</p>
         </div>
       </div>
 
 
       <div class="col-lg-4 col-sm-12 col-md-6">
         <div class="img-container">
-          <img class="image-service"
-            src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/services66.jpg" alt="loading">
+          <img class="image-service" src="https://unsplash.it/294/221?id=18" alt="loading">
 
         </div>
         <div class="description">
-          <h5>Transit Visa</h5>
-          <p>Transit Visa amet risus null. Elementum sagittis vitae et leo duis ut diam quam nul.</p>
+          <h5 class="fs-roboto">Transit Visa</h5>
+          <p class="fs-roboto-1">Transit Visa amet risus null. Elementum sagittis vitae et leo duis ut diam quam nul.</p>
 
         </div>
       </div>
@@ -378,52 +382,51 @@
   <section class="choose-us">
     <div class="row">
       <div class="col-lg-6">
-        <img class="image-girl" src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/12/why-girl.png"
-          alt="Loading">
+        <img class="image-girl" src="https://unsplash.it/884/914?id=19" alt="Loading">
 
       </div>
       <div class="col-lg-6">
         <div class="choose-us-right-side">
-          <h2 class="text-sub-heading">Why Choose Us</h2>
+          <h2 class="text-sub-heading fs-roboto">Why Choose Us</h2>
           <h5 class="text-main-heading f-32">We Provide Experts To Create Great Value For Your Visa.</h5>
           <div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                <div class="list-icon">
+                <div class="list-icon px-3">
                   <i class="fa fa-car"></i>
                 </div>
                 <div class="list-right-side">
-                  <div class="list-heading">
+                  <div class="list-heading fs-roboto-1">
                     Real Time Status
                   </div>
-                  <div class="list-desc">
+                  <div class="list-desc fs-roboto-1">
                     By dealing with data, select tools that help you automate time-consuming processes.
                   </div>
                 </div>
               </li>
               <li class="list-group-item">
-                <div class="list-icon">
+                <div class="list-icon px-3">
                   <i class="fa fa-car"></i>
                 </div>
                 <div class="list-right-side">
-                  <div class="list-heading">
-                    Real Time Status
+                  <div class="list-heading fs-roboto-1">
+                    Expert Help & Live Chat
                   </div>
-                  <div class="list-desc">
+                  <div class="list-desc fs-roboto-1">
                     By dealing with data, select tools that help you automate time-consuming processes.
                   </div>
                 </div>
 
               </li>
               <li class="list-group-item">
-                <div class="list-icon">
+                <div class="list-icon px-3">
                   <i class="fa fa-car"></i>
                 </div>
                 <div class="list-right-side">
-                  <div class="list-heading">
-                    Real Time Status
+                  <div class="list-heading fs-roboto-1">
+                    Fast Processing Guaranty
                   </div>
-                  <div class="list-desc">
+                  <div class="list-desc fs-roboto-1">
                     By dealing with data, select tools that help you automate time-consuming processes.
                   </div>
                 </div>
@@ -445,7 +448,7 @@
               <h5>2000+</h5>
             </div>
             <div class="icon-title">
-              <p>Happy Clients</p>
+              <p class="fs-roboto">Happy Clients</p>
             </div>
           </div>
           <div class="col-md-2">
@@ -454,7 +457,7 @@
               <h5>100%</h5>
             </div>
             <div class="icon-title">
-              <p>Satisfaction</p>
+              <p class="fs-roboto">Satisfaction</p>
             </div>
           </div>
           <div class="col-md-2">
@@ -463,7 +466,7 @@
               <h5>4.5*</h5>
             </div>
             <div class="icon-title">
-              <p>Reviews</p>
+              <p class="fs-roboto">Reviews</p>
             </div>
           </div>
           <div class="col-md-2">
@@ -472,7 +475,7 @@
               <h5>55+</h5>
             </div>
             <div class="icon-title">
-              <p>Countries</p>
+              <p class="fs-roboto">Countries</p>
             </div>
           </div>
           <div class="col-md-2">
@@ -481,7 +484,7 @@
               <h5>700+</h5>
             </div>
             <div class="icon-title">
-              <p>Students</p>
+              <p class="fs-roboto">Students</p>
             </div>
           </div>
           <div class="col-md-2">
@@ -490,32 +493,28 @@
               <h5>180+</h5>
             </div>
             <div class="icon-title">
-              <p>Universities</p>
+              <p class="fs-roboto">Universities</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="container-fluid">
+  <div class="container-fluid my-4">
     <div class="row justify-content-center img-items">
-      <div class="col-lg-3 img-item">
-        <img class="w-100"
-          src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2018/08/brand8888-1-300x117.png" alt="loading">
+      <div class="col-lg-3 col-sm-12 img-item py-2">
+        <img class="w-100" src="https://unsplash.it/375/146?id=27" alt="loading">
 
       </div>
-      <div class="col-lg-3 img-item">
-        <img class="w-100" src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2018/08/brand1-1.png"
-          alt="loading">
+      <div class="col-lg-3 col-sm-12 img-item py-2">
+        <img class="w-100" src="https://unsplash.it/375/146?id=24" alt="loading">
 
       </div>
-      <div class="col-lg-3 img-item">
-        <img class="w-100" src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2018/08/brand2-1.png"
-          alt="loading">
+      <div class=" col-lg-3 col-sm-12 img-item py-2">
+        <img class="w-100" src="https://unsplash.it/375/146?id=25" alt="loading">
       </div>
-      <div class="col-lg-3 img-item">
-        <img class="w-100" src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2018/08/brand3-1.png"
-          alt="loading">
+      <div class="col-lg-3 col-sm-12 img-item py-2">
+        <img class="w-100" src="https://unsplash.it/375/146?id=26" alt="loading">
       </div>
     </div>
   </div>
@@ -523,43 +522,35 @@
     <div class="container-10">
       <section class=" services">
         <div class="section-title">
-          <h5 class="section-sub-heading text-sub-heading">STUDY FOR ABROAD</h5>
+          <h5 class="section-sub-heading text-sub-heading fs-roboto">STUDY FOR ABROAD</h5>
           <h2 class="section-main-heading text-main-heading">Coaching For Abroad</h2>
         </div>
-        <div class="col-sm-12 col-md-12card-group">
+        <div class="col-sm-12 col-md-12 card-group">
           <div class="card">
 
-            <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/07/c1-1.jpg" class="card-img-top"
-              alt="Loading">
+            <img src="https://unsplash.it/294/221?id=14" class="card-img-top" alt="Loading">
             <div class="card-body">
-              <h5 class="card-title">GRE Coaching</h5>
+              <h5 class="card-title fs-roboto">GRE Coaching</h5>
               <div class="list icon">
                 <i class="immigration-immigration-coach"></i>
               </div>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <p class="card-text fs-roboto-1">There are many variations of passengers of Lorem lpsum available, but the majority have suffered</p>
             </div>
           </div>
           <div class="card">
 
-            <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/07/c2-1.jpg" class="card-img-top"
-              alt="Loading">
+            <img src="https://unsplash.it/294/221?id=22" class="card-img-top" alt="Loading">
             <div class="card-body">
-              <h5 class="card-title">IELTS Coaching</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h5 class="card-title fs-roboto">IELTS Coaching</h5>
+              <p class="card-text fs-roboto-1">There are many variations of passengers of Lorem lpsum available, but the majority have suffered</p>
             </div>
           </div>
           <div class="card">
 
-            <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/07/c3-1.jpg" class="card-img-top"
-              alt="Loading">
+            <img src="https://unsplash.it/294/221?id=23" class="card-img-top" alt="Loading">
             <div class="card-body">
-              <h5 class="card-title">TOEFL Coaching</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This card has even longer content than the first to show that equal height action.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h5 class="card-title fs-roboto">TOEFL Coaching</h5>
+              <p class="card-text fs-roboto-1">There are many variations of passengers of Lorem lpsum available, but the majority have suffered</p>
             </div>
           </div>
         </div>

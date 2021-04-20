@@ -121,7 +121,7 @@
  
 }
 .background-overlay{
-  background-image: url(https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/01/row-bg-six.jpg);
+  background-image:url("https://unsplash.it/964/508?id=30")
   background-position: top center;
 }
 .overlay-img{
@@ -515,4 +515,32 @@
 }
 .form-field p{
   color: #a6adbc;
+}
+.fs-roboto{
+  font-family: 'Roboto', sans-serif;
+}
+.fs-roboto-1{
+  font-family:'Roboto',arial,Helvetica,sans-serif;
+}
+.cntry-img{
+  height: 22px;
+}
+.h-full{
+  height: 100px;
+}
+@media (max-width:500px) {
+    .choose-us .row::after{
+      background-color: transparent;
+    }
+    .navbar{
+      background-color: #f40;
+    }
+}
+@media (max-width:1370px) {
+  .choose-us .row::after{
+    background-color: transparent;
+  }
+  .navbar{
+    background-color: #f40;
+  }
 }

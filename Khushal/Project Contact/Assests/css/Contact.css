@@ -39,12 +39,11 @@ body,p{
 .breadcumb-area .container{
     max-width: 1550px;
     width: 100%;
-    padding-right: 190px;
-    padding-left: 190px;
 }
 .form{
     margin: 0px;
     background-color: #f6f6f6;
+    padding: 70px 0px 60px;
 }
 .form .container{
     background-color: #f6f6f6;
@@ -185,9 +184,6 @@ body,p{
     margin-top: 0;
     font-size: 14px;
 }
-.copyright-social{
-    text-align: right;
-}
 .copyright-social ul li {
     font-size: 16px;
     display: inline;
@@ -294,6 +290,11 @@ body,p{
     width: 60px;
 }
 .footer-bottom-menu{
-    text-align: right;
+    justify-content: center;
 }
-
+.form-box{
+    background-color: #f6f6f6;
+}
+.form-card{
+    padding: 10px;
+}
