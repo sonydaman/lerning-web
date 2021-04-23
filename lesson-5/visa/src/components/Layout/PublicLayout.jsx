@@ -1,5 +1,6 @@
 import React from "react";
 import { Footer, Header } from "..";
+import { Sidebar } from "../Sidebar";
 
 export const PublicLayout = (props) => {
 
@@ -7,6 +8,7 @@ export const PublicLayout = (props) => {
     <div className="public-layout">
       <Header />
         {props.children}
+      <Sidebar />
       <Footer />
     </div>
   );
