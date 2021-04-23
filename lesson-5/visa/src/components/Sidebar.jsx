@@ -1,9 +1,13 @@
 import React from 'react'
 import { ListGroup } from 'react-bootstrap'
 
+
 export const Sidebar = () => {
     return (
-        <ListGroup>
+        <div className="container">
+            <div className="row">
+                <div className="col-4">
+                    <ListGroup>
             <ListGroup.Item>Profile</ListGroup.Item>
             <ListGroup.Item>Home</ListGroup.Item>
             <ListGroup.Item>About us</ListGroup.Item>
@@ -15,5 +19,8 @@ export const Sidebar = () => {
             <ListGroup.Item>Our Social sites</ListGroup.Item>
             <ListGroup.Item>Log Out</ListGroup.Item>
         </ListGroup>
+                </div>
+            </div>
+        </div>
     )
 }
