@@ -3,7 +3,7 @@ import { ListGroup } from 'react-bootstrap'
 
 export const Sidebar = () => {
     return (
-        <ListGroupoup>
+        <ListGroup>
             <ListGroup.Item>Profile</ListGroup.Item>
             <ListGroup.Item>Home</ListGroup.Item>
             <ListGroup.Item>About us</ListGroup.Item>
