@@ -4,7 +4,6 @@ import "../style/header.css";
 
 export const Header = () => {
     return (
-<<<<<<< HEAD
         <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="#home">Navbar</Navbar.Brand>
         <Nav className="mr-auto">
@@ -17,11 +16,6 @@ export const Header = () => {
           <Button variant="outline-info">Search</Button>
         </Form>
       </Navbar>
-=======
-        <div>
-            hy
-        </div>
->>>>>>> 0675383aaf25ae8076581bbe2bf2d4846f0f5246
       
     )
 }
