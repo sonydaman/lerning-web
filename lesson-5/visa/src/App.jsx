@@ -2,8 +2,10 @@
 //   return <div className="App">HI</div>;
 // }
 
+import Router from "./Router";
+
 // import { PublicLayout } from "./components/Layout"
-import { LandingPage } from "./Pages/LandingPage";
+// import { LandingPage } from "./Pages/LandingPage";
 
 // import { Footer, Header, Main } from "./components";
 
@@ -17,7 +19,7 @@ const App = () => {
       {/* <Header/>
       <Main />
       <Footer /> */}
-      <LandingPage />
+      <Router />
     </div>
   );
 };
