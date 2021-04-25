@@ -1,15 +1,46 @@
+.container {
+    position: relative;
+  }
+
+  .img-text{
+      text-align: left;
+  }
+
+  .img-text a{
+      text-transform: uppercase;
+      margin-right: 10px;
+  }
+  .img-text label{
+      margin-left: 10px;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 .services-body{
     background-color: rgb(232, 232, 250);
     padding: 0px;
     margin: 0px;
 }
 
-.col-md-4{
-    margin-right: 30px;
-    width: 340px;
-    position: relative;
-    padding: 0px 10px 0px 10px;
+.col-sm-12{
+    margin-left: 30px;
 }
+
+.col-md-6{
+    margin-right: 10px;
+    width: 320px;
+    position: relative;
+}
+
+
 
 .em-bar .em-bar-big{
     width: 47px;
@@ -23,12 +54,13 @@
     margin: 0px auto 5px;
 }
 
-.col-md-4:hover{
+.col-md-6:hover{
     transform: translateY(-10px);
 }
 
 .page-title h5{
     color: #f40;
+    margin-top: 10px;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
