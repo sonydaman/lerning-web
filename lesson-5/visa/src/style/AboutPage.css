@@ -1,3 +1,16 @@
-.about-us{
-    background-color: teal;
+/* .about-us{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-template-areas: "hero-img hero-img hero-img hero-img"
+                          "menu     content  content  content"
+                          "img      img       img       img ";
 }
+.hero-img{
+    grid-template-rows: 'hero-img';
+}
+.section-main{
+    grid-area: 'menu';
+}
+.img-section{
+grid-area: 'img';
+} */
