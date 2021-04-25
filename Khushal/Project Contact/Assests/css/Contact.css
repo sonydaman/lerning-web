@@ -11,7 +11,7 @@ body,p{
     color: #fff;
 }
 .T-social-icons{
-    justify-content: center;
+    justify-content: flex-end;
 }
 .list-social-icons{
     margin: 0px 0px 0px 17px;
@@ -297,4 +297,27 @@ body,p{
 }
 .form-card{
     padding: 10px;
+}
+@media(min-width: 300px){
+    .breadcumb-data{
+        padding-left: 30px;
+
+    }
+    .nav-item{
+        padding: 15px;    
+    }
+
+}
+@media(min-width: 1024px){
+    .breadcumb-data{
+        padding-left: 100px;
+
+    }
+}
+@media(min-width: 1600px){
+    .breadcumb-data{
+        padding-left: 200px;
+
+    }
+
 }
