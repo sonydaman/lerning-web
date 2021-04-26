@@ -4,7 +4,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import { PublicLayout } from "./components";
+import { Main, PublicLayout } from "./components";
 // import { Footer, Header } from "./components";
 import { AboutPage, HomePage, UsersPage } from "./Pages";
 
@@ -21,6 +21,9 @@ export default function Router() {
             </Route>
             <Route path="/">
                 <HomePage />
+            </Route>
+            <Route path="/main">
+                <Main />
             </Route>
             </Switch>
         </PublicLayout>
