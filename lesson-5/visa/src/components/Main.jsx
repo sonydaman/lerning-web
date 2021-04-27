@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.css'
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, Spinner } from 'react-bootstrap';
 
 export const Main = () => {
     return (
@@ -118,6 +118,11 @@ export const Main = () => {
             </div>
              </Card.Body>
             </Card>
+            </div>
+            <div className="loading-btn">
+            <Spinner animation="border" role="status">
+              <span className="sr-only">Loading...</span>
+            </Spinner>
             </div>
         </div>
     )
