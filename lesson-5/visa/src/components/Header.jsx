@@ -6,8 +6,8 @@ import "../style/header.css";
 export const Header = () => {
     return (
       <Navbar bg="dark" variant="dark">
-          <div className="container">
-        <Navbar.Brand href="#title">FUNBOOK</Navbar.Brand>
+          <div className="container-fluid">
+        <Navbar.Brand href="#title"><h2>FUNBOOK</h2></Navbar.Brand>
             
         <Nav className="mr-auto">
           <Nav.Link href="#home">HOME</Nav.Link>
