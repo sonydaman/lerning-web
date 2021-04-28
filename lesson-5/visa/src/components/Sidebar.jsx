@@ -27,14 +27,18 @@ export const Sidebar = () => {
                     </Link>
             </ListGroup.Item>
             <ListGroup.Item>
-                <Link to="/accademic">
+                <Link to="/academic">
                     {/* <FontAwesomeIcon icon={faAdjust} /> */}
                         Academic
                     </Link>
 
             </ListGroup.Item>
             <ListGroup.Item>Achievements</ListGroup.Item>
-            <ListGroup.Item>Books</ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/books">
+                    Books
+                    </Link>
+            </ListGroup.Item>
             <ListGroup.Item>Contact</ListGroup.Item>
             <ListGroup.Item>Our Social sites</ListGroup.Item>
             <ListGroup.Item>Log Out</ListGroup.Item>

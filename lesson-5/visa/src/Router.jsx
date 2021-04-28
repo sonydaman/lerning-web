@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   BrowserRouter,
   Switch,
@@ -6,7 +7,7 @@ import {
 } from "react-router-dom";
 import { Main, PublicLayout } from "./components";
 // import { Footer, Header } from "./components";
-import { AboutPage, UsersPage, GalleryPage, AcademicPage, BooksPage, Main } from "./Pages";
+import { AboutPage, UsersPage, GalleryPage, AcademicPage, BooksPage, } from "./Pages";
 
 
 export default function Router() {
@@ -26,11 +27,12 @@ export default function Router() {
           <Route path="/users">
             <UsersPage />
           </Route>
-          <Route path="/users">
+          <Route path="/books">
             <BooksPage />
           </Route>
           <Route path="/main">
             <Main />
+
           </Route>
         </Switch>
       </PublicLayout>
