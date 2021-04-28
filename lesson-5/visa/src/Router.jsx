@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import { Main, PublicLayout } from "./components";
 // import { Footer, Header } from "./components";
-import { AboutPage, UsersPage } from "./Pages";
+import { AboutPage, UsersPage, BooksPage } from "./Pages";
 
 export default function Router() {
   return (
@@ -20,6 +20,12 @@ export default function Router() {
                 <UsersPage />
             </Route>            
             <Route path="/main">
+                <Main />
+            </Route>
+            <Route path="/books">
+                <BooksPage />
+            </Route>
+            <Route path="/">
                 <Main />
             </Route>
             </Switch>

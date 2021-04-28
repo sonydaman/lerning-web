@@ -23,7 +23,11 @@ export const Sidebar = () => {
                 <ListGroup.Item>Gallery</ListGroup.Item>
                 <ListGroup.Item>Academics</ListGroup.Item>
                 <ListGroup.Item>Achievements</ListGroup.Item>
-                <ListGroup.Item>Books</ListGroup.Item>
+                <ListGroup.Item>
+                    <Link to="/books">
+                        Books
+                    </Link>
+                </ListGroup.Item>
                 <ListGroup.Item>Contact</ListGroup.Item>
                 <ListGroup.Item>Our Social sites</ListGroup.Item>
                 <ListGroup.Item>Log Out</ListGroup.Item>
