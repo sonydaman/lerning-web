@@ -6,27 +6,38 @@ import { Link } from 'react-router-dom'
 // https://fontawesome.com/icons?d=gallery&p=2&s=solid
 export const Sidebar = () => {
     return (
-        
-            <ListGroup>
-                <ListGroup.Item>
+
+        <ListGroup>
+            <ListGroup.Item>
                 <Link to="/main">
                     Dashboard
                     </Link>
-                </ListGroup.Item>
-                <ListGroup.Item>Profile</ListGroup.Item>
-                <ListGroup.Item>
-                    <Link to="/about">
-                        {/* <FontAwesomeIcon icon={faAdjust} /> */}
+            </ListGroup.Item>
+            <ListGroup.Item>Profile</ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/about">
+                    {/* <FontAwesomeIcon icon={faAdjust} /> */}
                         About us
                     </Link>
-                </ListGroup.Item>
-                <ListGroup.Item>Gallery</ListGroup.Item>
-                <ListGroup.Item>Academics</ListGroup.Item>
-                <ListGroup.Item>Achievements</ListGroup.Item>
-                <ListGroup.Item>Books</ListGroup.Item>
-                <ListGroup.Item>Contact</ListGroup.Item>
-                <ListGroup.Item>Our Social sites</ListGroup.Item>
-                <ListGroup.Item>Log Out</ListGroup.Item>
-            </ListGroup>
+            </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/gallery">
+                    {/* <FontAwesomeIcon icon={faAdjust} /> */}
+                        Gallery
+                    </Link>
+            </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/accademic">
+                    {/* <FontAwesomeIcon icon={faAdjust} /> */}
+                        Academic
+                    </Link>
+
+            </ListGroup.Item>
+            <ListGroup.Item>Achievements</ListGroup.Item>
+            <ListGroup.Item>Books</ListGroup.Item>
+            <ListGroup.Item>Contact</ListGroup.Item>
+            <ListGroup.Item>Our Social sites</ListGroup.Item>
+            <ListGroup.Item>Log Out</ListGroup.Item>
+        </ListGroup>
     )
 }
