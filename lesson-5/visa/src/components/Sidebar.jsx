@@ -33,7 +33,11 @@ export const Sidebar = () => {
                     </Link>
 
             </ListGroup.Item>
-            <ListGroup.Item>Achievements</ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/achievements">
+                    Achievements
+                    </Link>
+            </ListGroup.Item>
             <ListGroup.Item>
                 <Link to="/books">
                     Books
