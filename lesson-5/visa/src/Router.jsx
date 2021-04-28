@@ -6,7 +6,8 @@ import {
 } from "react-router-dom";
 import { Main, PublicLayout } from "./components";
 // import { Footer, Header } from "./components";
-import { AboutPage, UsersPage, GalleryPage, AcademicPage } from "./Pages";
+import { AboutPage, UsersPage, GalleryPage, AcademicPage, BooksPage, Main } from "./Pages";
+
 
 export default function Router() {
   return (
@@ -24,6 +25,9 @@ export default function Router() {
           </Route>
           <Route path="/users">
             <UsersPage />
+          </Route>
+          <Route path="/users">
+            <BooksPage />
           </Route>
           <Route path="/main">
             <Main />
