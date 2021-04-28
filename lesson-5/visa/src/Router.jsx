@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import { Main, PublicLayout } from "./components";
 // import { Footer, Header } from "./components";
-import { AboutPage, UsersPage, GalleryPage, AcademicPage, BooksPage, } from "./Pages";
+import { AboutPage, UsersPage, GalleryPage, AcademicPage, BooksPage, AchievementsPage } from "./Pages";
 
 
 export default function Router() {
@@ -30,6 +30,10 @@ export default function Router() {
           <Route path="/books">
             <BooksPage />
           </Route>
+          <Route path="/achievements">
+            <AchievementsPage />
+          </Route>
+
           <Route path="/main">
             <Main />
 
