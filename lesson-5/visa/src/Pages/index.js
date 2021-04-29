@@ -5,10 +5,10 @@ import { GalleryPage } from "./GalleryPage";
 import { AcademicPage} from "./Academicpage";
 import { BooksPage } from "./BooksPage";
 import { AchievementsPage } from "./AchievementsPage";
+import{ContactPage} from "./contactpage";
 
 
-
-export { HomePage, AboutPage, UsersPage,GalleryPage,AcademicPage,BooksPage,AchievementsPage};
+export { HomePage, AboutPage, UsersPage,GalleryPage,AcademicPage,BooksPage,AchievementsPage,ContactPage};
 
 
 

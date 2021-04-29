@@ -43,6 +43,16 @@ export const Sidebar = () => {
                     Books
                     </Link>
             </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/home">
+                    HomePage
+                    </Link>
+            </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/contact">
+                    ContactPage
+                    </Link>
+            </ListGroup.Item>
             <ListGroup.Item>Contact</ListGroup.Item>
             <ListGroup.Item>Our Social sites</ListGroup.Item>
             <ListGroup.Item>Log Out</ListGroup.Item>
