@@ -1,24 +1,42 @@
 import React from 'react'
-import { Col, Row } from 'react-bootstrap'
+// import { Col, Row } from 'react-bootstrap'
 export const AchievementsPage = () => {
-    const images = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
+    const titles = ["Title-1", "Title-2", "Title-3", "Title-4", "Title-5", "Title-6", "Title-7", "Title-8", "Title-9", "Title-10"];
+    // images.map(()=>{
 
+    // });
+    //ecma-6
+    //ecma-5
+     // img:'https://unsplash.it/200/200?id='+index
+    // const titleData = titles.map((title,index)=>({
+    //         title,
+    //         index,
+    //         img:`https://unsplash.it/200/200?id=${index}`
+    //     }))
+    // const titleFilterData = titles.filter((title,index)=>( index<5 && title))
+    // console.log(titleData);
+    // console.log(titleFilterData);
     return (
         <div>
-            <Row>
-                {
-                    images.map((imageId, index) => {
-                        const url = "https://unsplash.it/400/400?id=" + imageId;
-                        return (
-                            <Col key={index} lg={3} sm={12} md={6}>
-                                <img className="w-100"
-                                    src={url} alt="as" />
-                            </Col>
-                        )
-                    })
-                }
-            </Row>
-
+          <h2>Achievements</h2> 
+        {
+            titles.map((title,index)=>{
+                const result = { title,
+                                index,
+                                img:`https://unsplash.it/200/200?id=${index}`
+                            }
+                return (
+                    <div key={result.index} className="title-container">
+                        <div className="title">
+                            {result.title}
+                        </div>
+                        <div className="title-img">
+                            <img src={result.img} alt=""/>
+                        </div>
+                    </div>
+                )
+        })
+        }
         </div>
 
     )
