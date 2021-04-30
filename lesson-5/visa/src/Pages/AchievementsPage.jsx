@@ -18,6 +18,12 @@ export const AchievementsPage = () => {
     // console.log(titleFilterData);
     return (
         <div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Library</li>
+            </ol>
+        </nav>
           <h2>Achievements</h2> 
         {
             titles.map((title,index)=>{
