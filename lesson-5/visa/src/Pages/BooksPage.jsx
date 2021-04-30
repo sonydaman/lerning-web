@@ -6,7 +6,8 @@ export const BooksPage = () => {
     const uri = "https://jsonplaceholder.typicode.com/photos"
     const [PhotoData, setPhotoData] = useState([])
     useEffect(async () => {
-       const {data} = await axios.get(uri);
+       const {data,status,...rest} = await axios.get(uri);
+       console.log(status,rest);
       const result = data.filter((item,index)=>index<100  && item)
        setPhotoData(result)
        
