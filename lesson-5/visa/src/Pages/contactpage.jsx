@@ -1,4 +1,4 @@
-import React, { useEffect,useState } from 'react'
+import React, { useState } from 'react'
 export const ContactPage = () => {
     // var //let , const
     // eslint-disable-next-line react-hooks/exhaustive-deps
