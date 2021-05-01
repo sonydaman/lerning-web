@@ -35,9 +35,9 @@ export const AchievementsPage = () => {
                     <div key={result.index} className="title-container">
                         <div className="title">
                             {result.title}
-                        </div>
-                        <div className="title-img">
-                            <img src={result.img} alt=""/>
+                            <div className="title-img">
+                                <img src={result.img} alt=""/>
+                            </div>
                         </div>
                     </div>
                 )

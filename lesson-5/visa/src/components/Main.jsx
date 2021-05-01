@@ -1,129 +1,45 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.css'
-import { Button, Card, Spinner } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 
 export const Main = () => {
-    return (
-        <div className="main-div">
-            <div className="card-1">
-
-            <Card style={{ width: '60rem', innerHeight: '60rem'}}>
-            <Card.Title>Mr. Rajesh Kumar</Card.Title>
-             <Card.Img variant="top" width="40rem" src="https://unsplash.it/1350/600?id=1" />
-
-             
-            <Card.Body>
-            
-               <Card.Text>
-                 How you are feeling about this beautifull image?
-               </Card.Text>
-             </Card.Body>
-             <Card.Body>
-             <div className="mb-2">
-                 <Button variant="secondary" size="lg">
-                   LIKE
-                 </Button>{' '}
-                 <Button variant="secondary" size="lg">
-                   COMMENT
-                 </Button>{' '}
-                 <Button variant="secondary" size="lg">
-                   SHARE
-                 </Button>
-            </div>
-             </Card.Body>
-            </Card>
-            </div>
-            <div className="card-1">
-
-            <Card style={{ width: '60rem', innerHeight: '40rem'}}>
-            <Card.Title>Mr. Neeraj Kumar</Card.Title>
-             <Card.Img variant="top" width="40rem" src="https://unsplash.it/1350/600?id=2" />
-
-             
-            <Card.Body>
-            
-               <Card.Text>
-                 How you are feeling about this beautifull image?
-               </Card.Text>
-             </Card.Body>
-             <Card.Body>
-             <div className="mb-2">
-                 <Button variant="secondary" size="lg">
-                   LIKE
-                 </Button>{' '}
-                 <Button variant="secondary" size="lg">
-                   COMMENT
-                 </Button>{' '}
-                 <Button variant="secondary" size="lg">
-                   SHARE
-                 </Button>
-            </div>
-             </Card.Body>
-            </Card>
-            </div>
-            <div className="card-1">
-
-            <Card style={{ width: '60rem', innerHeight: '40rem'}}>
-            <Card.Title>Mr. Sahil Gautam</Card.Title>
-             <Card.Img variant="top" width="40rem" src="https://unsplash.it/1350/600?id=3" />
-
-             
-            <Card.Body>
-            
-               <Card.Text>
-                 How you are feeling about this beautifull image?
-               </Card.Text>
-             </Card.Body>
-             <Card.Body>
-             <div className="mb-2">
-                 <Button variant="secondary" size="lg">
-                   LIKE
-                 </Button>{' '}
-                 <Button variant="secondary" size="lg">
-                   COMMENT
-                 </Button>{' '}
-                 <Button variant="secondary" size="lg">
-                   SHARE
-                 </Button>
-            </div>
-             </Card.Body>
-            </Card>
-            </div>
-
-            <div className="card-1">
-
-            <Card style={{ width: '60rem', innerHeight: '40rem'}}>
-            <Card.Title>Mr. Mukesh Kumar</Card.Title>
-             <Card.Img variant="top" width="40rem" src="https://unsplash.it/1350/600?id=4" />
-
-             
-            <Card.Body>
-            
-               <Card.Text>
-                 How you are feeling about this beautifull image?
-               </Card.Text>
-             </Card.Body>
-             <Card.Body>
-             <div className="mb-2">
-                 <Button variant="secondary" size="lg">
-                   LIKE
-                 </Button>{' '}
-                 <Button variant="secondary" size="lg">
-                   COMMENT
-                 </Button>{' '}
-                 <Button variant="secondary" size="lg">
-                   SHARE
-                 </Button>
-            </div>
-             </Card.Body>
-            </Card>
-            </div>
-            <div className="loading-btn">
-            <Spinner animation="border" role="status">
-              <span className="sr-only">Loading...</span>
-            </Spinner>
-            </div>
-        </div>
-    )
+  const UserFullName = ["Rohit Sharma","Krishan Kumar", "Manpreet Singh","Aditya Chouhan"]
+    return (   
+      <div className='main-div'>
+        <h2>All Posts</h2>
+        <div className="all-post">
+      {
+      UserFullName.map((name,index) =>{
+         const result = { name,
+                          index,
+                          img:`https://unsplash.it/700/400?id=${index}`
+                        }
+        return(     
+          
+          <div key={result.index} className="container">
+              {result.name}
+              
+              <div className="posted-img">
+                  <img src={result.img} alt=""/>    
+              </div>
+              <div className="button-section">
+              <div className="mb-2">
+                <Button variant="secondary" size="lg">
+                  Like
+                </Button>
+              </div>
+              <div className="mb-2">
+                <Button variant="secondary" size="lg">
+                  Like
+                </Button>
+              </div>
+              </div>
+          </div>
+          
+    )}
+  )}
+  </div>
+</div>
+)
 }
