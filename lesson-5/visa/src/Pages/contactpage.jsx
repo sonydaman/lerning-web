@@ -30,6 +30,7 @@ export const ContactPage = () => {
     // console.log(resData);
     return (
         <div>
+            
             <input type="text" defaultValue={result.name} />
             <div className="userName">{resData.name}</div>
             <div className="userClass">{resData.class}</div>
