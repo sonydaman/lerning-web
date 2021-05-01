@@ -1,17 +1,17 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 export const GalleryPage = () => {
     return (
         <div>
-                    <nav aria-label="breadcrumb">
+                    {/* <nav aria-label="breadcrumb">
             <ol className="breadcrumb">
                 <li className="breadcrumb-item">
                     <Link to="#">Home</Link>
                     </li>
                 <li className="breadcrumb-item active" aria-current="page">Library</li>
             </ol>
-        </nav>
+        </nav> */}
           <h2>Gallery</h2> 
             <Row>
                 <Col lg={3} sm={12} md={6}>

@@ -14,7 +14,8 @@ export default function Router() {
   return (
     <BrowserRouter>
       <PublicLayout>
-        <Switch>
+        <div>HI</div>
+        {/* <Switch>
           <Route path="/about">
             <AboutPage />
           </Route>
@@ -47,7 +48,7 @@ export default function Router() {
             <Main />
 
           </Route>
-        </Switch>
+        </Switch> */}
       </PublicLayout>
     </BrowserRouter>
   );
