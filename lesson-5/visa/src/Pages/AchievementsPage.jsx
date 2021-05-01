@@ -1,7 +1,7 @@
 import React from 'react'
 // import { Col, Row } from 'react-bootstrap'
 export const AchievementsPage = () => {
-    const titles = ["Title-1", "Title-2", "Title-3", "Title-4", "Title-5", "Title-6", "Title-7", "Title-8", "Title-9", "Title-10"];
+    const titles = ["Title-1", "Title-2", "Title-3", "Title-4", "Title-5", "Title-6","Title-7","Title-8","Title-9","Title-10"];
     // images.map(()=>{
 
     // });
@@ -18,6 +18,12 @@ export const AchievementsPage = () => {
     // console.log(titleFilterData);
     return (
         <div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Library</li>
+            </ol>
+        </nav>
           <h2>Achievements</h2> 
         {
             titles.map((title,index)=>{

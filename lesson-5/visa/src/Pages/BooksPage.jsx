@@ -10,6 +10,7 @@ export const BooksPage = () => {
         const result = data.filter((item, index) => index < 100 && item)
         setPhotoData(result)
 
+
     }, [])
     return (
         <>
