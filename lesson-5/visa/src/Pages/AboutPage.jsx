@@ -2,7 +2,16 @@ import React from 'react'
 import "../style/AboutPage.css";
 export const AboutPage = () => {
     return (
+        
+        
         <div className="about-us">
+                    <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Library</li>
+            </ol>
+        </nav>
+          <h2>About Us</h2> 
           <div className="hero-img">
               <img src="https://unsplash.it/700/300" alt=""/>
           </div>
