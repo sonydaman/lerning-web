@@ -1,4 +1,5 @@
 import React from 'react'
+// import { Link } from 'react-router-dom';
 import "../style/AboutPage.css";
 export const AboutPage = () => {
     return (
@@ -6,9 +7,11 @@ export const AboutPage = () => {
         
         <div className="about-us">
                     {/* <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Library</li>
+                        <ol className="breadcrumb">
+                            <li className="breadcrumb-item">
+                                <Link href="#">Home</Link>
+                            </li>
+                            <li className="breadcrumb-item active" aria-current="page">Library</li>
                         </ol>
                     </nav> */}
                        <h2>About Us</h2> 
