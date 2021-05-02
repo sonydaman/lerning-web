@@ -2,15 +2,15 @@ import React, { useState } from 'react'
 export const ContactPage = () => {
     // var //let , const
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    const result = {name:'Nidhi',class:'BTech',subject:'Computer'};
+    const result = { name: 'Nidhi', class: 'BTech', subject: 'Computer' };
     const [resData, setResData] = useState(result)
     //ecma-6
-    const updateRes = ()=>{
+    const updateRes = () => {
         // console.log('hi')
         // result.name="Manvinder";
         // result.class="BCA";
         // result.class="Computers";
-        setResData({name:'Manwinder',class:'BCA',subject:'Computers'});
+        setResData({ name: 'Manwinder', class: 'BCA', subject: 'Computers' });
         // console.log('hi')
     }
 
@@ -30,7 +30,7 @@ export const ContactPage = () => {
     // console.log(resData);
     return (
         <div>
-            
+
             <input type="text" defaultValue={result.name} />
             <div className="userName">{resData.name}</div>
             <div className="userClass">{resData.class}</div>
