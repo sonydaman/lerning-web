@@ -42,7 +42,6 @@ export default function Router() {
             <ContactPage />
           </Route>
 
-
           <Route path="/">
             <Main />
 

@@ -53,6 +53,11 @@ export const Sidebar = () => {
                     ContactPage
                     </Link>
             </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/contact">
+
+                </Link>
+            </ListGroup.Item>
             <ListGroup.Item>Contact</ListGroup.Item>
             <ListGroup.Item>Our Social sites</ListGroup.Item>
             <ListGroup.Item>Log Out</ListGroup.Item>
