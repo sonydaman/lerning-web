@@ -34,3 +34,53 @@
     margin: 40px 50px 20px 40px;
 }
 
+.card{
+    border: 5px solid rgba(129, 24, 24, 0.125);
+    border-radius: 10px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.25rem;
+    background: rgb(182, 184, 184);
+}
+
+.card-title {
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+
+.card-text:last-child {
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+.card-footer {
+    padding: 0.75rem -0.75rem;
+    margin-left: 10px;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.breadcrumb {
+    display: inline-flex;
+}
+
+.valid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    margin-left: 10px;
+    color: #28a745;
+}
+
+@media (min-width: 576px) {
+.card-deck .card {
+    flex: 1 0;
+    margin: 14px 6px 0px 7px;
+
+}
+}
+
