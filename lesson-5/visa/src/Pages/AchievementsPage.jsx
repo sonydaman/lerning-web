@@ -25,6 +25,7 @@ export const AchievementsPage = () => {
             </ol>
         </nav> */}
           <h2>Achievements</h2> 
+          <BreadCrumb pageName="Achievements" />
         {
             titles.map((title,index)=>{
                 const result = { title,

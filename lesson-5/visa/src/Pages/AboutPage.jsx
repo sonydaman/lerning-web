@@ -7,9 +7,9 @@ export const AboutPage = () => {
         <div>
             <BreadCrumb pageName="About Us" />
             <h2>About Us</h2>
-         // <div className="hero-img">
-         //     <img src="https://unsplash.it/700/300" alt=""/>
-         // </div>
+         <div className="hero-img">
+              <img src="https://unsplash.it/700/300" alt=""/>
+         </div>
           <div className="section-main">
               <ul className="menu">
                   <li>Item-1</li>
