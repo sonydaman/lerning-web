@@ -2,7 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.css'
 import { Button, Card, CardDeck, Form, FormControl } from 'react-bootstrap';
-import { BreadCrumb } from '@fortawesome/react-fontawesome';
+import { BreadCrumb } from '.';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeartbeat, faShareSquare } from '@fortawesome/free-solid-svg-icons'
 
