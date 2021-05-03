@@ -21,7 +21,8 @@ react before 16
                 console.log("Mount);
             },[])
         update
-            useEffect(()=>{
+
+               useEffect(()=>{
                 console.log("Update");
             },[item])
             // dependency
