@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
+import { BreadCrumb } from '../Components/BreadCrumb'
 export const GalleryPage = () => {
     return (
         <div>
