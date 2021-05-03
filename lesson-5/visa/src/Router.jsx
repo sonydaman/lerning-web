@@ -43,7 +43,7 @@ export default function Router() {
           </Route>
 
 
-          <Route path="/main">
+          <Route path="/">
             <Main />
 
           </Route>

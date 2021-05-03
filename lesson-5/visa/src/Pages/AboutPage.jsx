@@ -1,10 +1,13 @@
 import React from 'react'
+import { BreadCrumb } from '../components';
+// import { Link } from 'react-router-dom';
 import "../style/AboutPage.css";
 export const AboutPage = () => {
     return (
         
         
         <div className="about-us">
+<<<<<<< HEAD
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#">About Us</a></li>
@@ -12,6 +15,10 @@ export const AboutPage = () => {
                         </ol>
                     </nav>
                        <h2>About Us</h2> 
+=======
+            <BreadCrumb pageName="About Us" />
+            <h2>About Us</h2> 
+>>>>>>> bab31a6e0b472e5c29fa93c49fb0106d84f6ca01
           <div className="hero-img">
               <img src="https://unsplash.it/700/300" alt=""/>
           </div>
