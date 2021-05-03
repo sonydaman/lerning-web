@@ -5,7 +5,6 @@ import "../style/footer.css"
 export const Footer = () => {
     return (
         <div className="footer">
-            <div className="container">
                 <Row>
                     <Col lg={6} md={6} sm={6}>
                         <div className="Copy-right-text">
@@ -18,7 +17,6 @@ export const Footer = () => {
                         </div>
                     </Col>
                 </Row>
-            </div>
         </div>
        
     )
