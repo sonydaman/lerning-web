@@ -25,12 +25,7 @@ export const BreadCrumb = (props) => {
     return (
         <div>
             <nav aria-label="breadcrumb">
-                <ol className="breadcrumb">
-                    <li className="breadcrumb-item">
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li className="breadcrumb-item active" aria-current="page">{pageName ?? 'Home'}</li>
-                </ol>
+                { pageName === 'Dashboard' ? forHome() : forOthers()}
             </nav>
         </div>
     )

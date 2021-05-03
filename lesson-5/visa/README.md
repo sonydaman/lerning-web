@@ -65,3 +65,35 @@ Pages
             -- breadcrumb
             -- image
             -- form
+git
+    -- before starting any work take pull
+    -- changes
+    -- commit,push
+
+    --suraj
+        achivement 12
+    --parteek
+        achivement 12
+
+if(condition true) {   } else if { } else{}
+switch{}
+
+condition ==,=== ? true : false
+
+--- strict mode(string number) false
+        2 == '2' true only match value hacking 
+        // script 
+        2 === '2' value type variable false
+
+16.9 version
+react
+    -- context
+    -- provider
+    -- useReducer
+    -- useContext
+login
+redux(browser ram memory)
+    -- action
+    -- reducer
+    -- store
+          
