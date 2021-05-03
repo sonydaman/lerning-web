@@ -5,7 +5,7 @@ import "../style/AboutPage.css";
 export const AboutPage = () => {
     return (
         
-       
+       <div>
                        <h2>About Us</h2> 
             <BreadCrumb pageName="About Us" />
             <h2>About Us</h2> 
@@ -68,5 +68,6 @@ export const AboutPage = () => {
               <img src="https://unsplash.it/300/400?id=4" alt=""/>
           </div>
         </div>
+    
     )
 }
