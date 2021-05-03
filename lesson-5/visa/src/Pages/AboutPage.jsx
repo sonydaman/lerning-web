@@ -3,7 +3,11 @@ import React from 'react'
 import "../style/AboutPage.css";
 export const AboutPage = () => {
     return (
-        <div className="about-us">
+        
+       <div>
+                       <h2>About Us</h2> 
+            <BreadCrumb pageName="About Us" />
+            <h2>About Us</h2> 
           <div className="hero-img">
               <img src="https://unsplash.it/982/400" alt=""/>
           </div>
@@ -52,5 +56,6 @@ export const AboutPage = () => {
               
           </div>
         </div>
+    
     )
 }
