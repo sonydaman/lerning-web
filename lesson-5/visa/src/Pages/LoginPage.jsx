@@ -1,6 +1,6 @@
 import { Button } from 'bootstrap'
 import React from 'react'
-import { ButtonGroup, Col, Form, FormLabel, Row } from 'react-bootstrap'
+import { Button, Col, Form, FormLabel, Row } from 'react-bootstrap'
 //import { Link } from 'react-router-dom'
 
 export const LoginPage = () => {
@@ -29,7 +29,7 @@ export const LoginPage = () => {
                         </FormLabel>
                         </Col>
                         <Col>
-                        <ButtonGroup type="submit"> Sign in</Button>
+                        <Button type="submit"> Sign in</Button>
                         </Col>
                     </Row>
                 </Form>
