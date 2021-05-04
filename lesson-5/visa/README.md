@@ -31,7 +31,7 @@ react before 16
                     console.log("UnMount);
                 }
             },[])
-//ecma6
+//ecma6 D
     // rest operator // spreadOpreator
 
   var result = {
