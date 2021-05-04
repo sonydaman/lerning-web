@@ -4,10 +4,10 @@ import { BreadCrumb } from '../components'
 
 export const AcademicPage = () => {
     return (
-        
+
         <div className="academic-page">
-                    <BreadCrumb />
-                        <h2>Academic</h2> 
+            <BreadCrumb />
+            <h2>Academic</h2>
             this is a test
         </div>
 
