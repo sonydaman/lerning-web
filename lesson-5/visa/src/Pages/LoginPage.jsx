@@ -1,14 +1,14 @@
 import { Button } from 'bootstrap'
 import React from 'react'
-import { Col, Form, FormLabel, Row } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { ButtonGroup, Col, Form, FormLabel, Row } from 'react-bootstrap'
+//import { Link } from 'react-router-dom'
 
 export const LoginPage = () => {
     return(
         
         <div className="Login-Box">
             <div className="Login-logo">
-                <Link to "#"></div>FUNBOOK</Link>
+                FUNBOOK
             </div>
             <div className="form-container">
                 <p>Sign in to start your session</p>
@@ -29,9 +29,7 @@ export const LoginPage = () => {
                         </FormLabel>
                         </Col>
                         <Col>
-                        <Button></Button>
-                        
-                        <button type="submit">Sign in</button>
+                        <ButtonGroup type="submit"> Sign in</Button>
                         </Col>
                     </Row>
                 </Form>
