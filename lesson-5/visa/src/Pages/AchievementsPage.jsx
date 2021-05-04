@@ -20,7 +20,10 @@ export const AchievementsPage = () => {
             return res;
         })
         return myObject;
-        // return [{title:'Title-1',index:0,img:`https://unsplash.it/200/200?id=0`}];
+        // return [
+                        // {title:'Title-1',index:0,img:`https://unsplash.it/200/200?id=0`}
+                        // {title:'Title-2',index:1,img:`https://unsplash.it/200/200?id=1`}
+                    // ];
     }
     return (
         <div>

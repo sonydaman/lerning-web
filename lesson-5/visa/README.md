@@ -97,3 +97,29 @@ redux(browser ram memory)
     -- reducer
     -- store
           
+Page
+    AchivmentsPage
+        --Breadcrumb
+        --Achivements
+            --Image
+
+component
+    try to use in you page
+    button
+    image
+    label
+
+map function use
+ [].map((title,index)=>{ 
+
+ })
+ [].filter((title,index)=>{ 
+
+ })
+ // agregate,avarage
+ [].reduce((title,index,accumlator)=>{ 
+
+ })
+ [].foreach((title,index)=>{ 
+
+ })
