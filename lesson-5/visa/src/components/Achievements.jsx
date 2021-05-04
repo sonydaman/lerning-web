@@ -6,16 +6,16 @@ const Achievements = props => {
     return (
         <div className="achievements">
             {
-                items.map((item,index)=>(
-                        <div key={index} className="title-container">
+                items.map((item,index)=>{
+                        return (<div key={index} className="title-container">
                             <div className="title">
                                 {item.title}
                             </div>
                             <div className="title-img">
                                 <img src={item.img} alt=""/>
                             </div>
-                        </div>
-                ))
+                        </div>)
+                    })
                 }
         </div>
     )

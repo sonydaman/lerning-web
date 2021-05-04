@@ -110,3 +110,16 @@ component
     label
 
 map function use
+ [].map((title,index)=>{ 
+
+ })
+ [].filter((title,index)=>{ 
+
+ })
+ // agregate,avarage
+ [].reduce((title,index,accumlator)=>{ 
+
+ })
+ [].foreach((title,index)=>{ 
+
+ })
