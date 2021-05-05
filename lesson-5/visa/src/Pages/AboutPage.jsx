@@ -1,5 +1,5 @@
 import React from 'react'
-import { BreadCrumb } from '../components';
+import { BreadCrumb } from '../Components';
 // import { Link } from 'react-router-dom';
 import "../style/AboutPage.css";
 export const AboutPage = () => {

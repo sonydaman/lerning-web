@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
-export const ContactPage = () => {
+import { Img } from '../Components';
+import Achievement from '../Components/Achievement';
+import Title from '../Components/Title';
+export const ContactUsPage = () => {
     // var //let , const
     // eslint-disable-next-line react-hooks/exhaustive-deps
     const result = { name: 'Nidhi', class: 'BTech', subject: 'Computer' };
@@ -35,7 +38,10 @@ export const ContactPage = () => {
             <div className="userName">{resData.name}</div>
             <div className="userClass">{resData.class}</div>
             <div className="userSubject">{resData.subject}</div>
-            <button onClick={updateRes}> Update Data</button>
+            <button onClick={updateRes}> Update Data</button> 
+            <Achievement item={{title:'HI',img:'https://unsplash.it/200/200'}} />
+             <Title titleName="Manvinder" />
+            <Img source='https://unsplash.it/200/200?id=12' />
         </div>
 
     )

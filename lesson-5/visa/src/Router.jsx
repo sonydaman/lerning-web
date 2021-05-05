@@ -5,9 +5,10 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import { Main, PublicLayout } from "./components";
+import { Main, PublicLayout } from "./Components";
 // import { Footer, Header } from "./components";
-import { AboutPage, UsersPage, GalleryPage, AcademicPage, BooksPage, AchievementsPage, HomePage, ContactPage } from "./Pages";
+import { AboutPage, UsersPage, GalleryPage, AcademicPage, BooksPage, AchievementsPage, HomePage, ContactUsPage } from "./Pages";
+import SigninPage from "./Pages/SigninPage";
 
 
 export default function Router() {
@@ -33,13 +34,16 @@ export default function Router() {
           <Route path="/achievements">
             <AchievementsPage />
           </Route>
+          <Route path="/signin">
+            <SigninPage />
+          </Route>
 
           <Route path="/home">
             <HomePage />
           </Route>
 
           <Route path="/contact">
-            <ContactPage />
+            <ContactUsPage />
           </Route>
 
           <Route path="/">

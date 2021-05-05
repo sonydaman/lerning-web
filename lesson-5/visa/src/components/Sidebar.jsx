@@ -54,6 +54,11 @@ export const Sidebar = () => {
                     </Link>
             </ListGroup.Item>
             <ListGroup.Item>
+                <Link to="/signin">
+                    Signin
+                    </Link>
+            </ListGroup.Item>
+            <ListGroup.Item>
                 <Link to="/contact">
 
                 </Link>

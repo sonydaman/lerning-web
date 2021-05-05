@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import { BreadCrumb } from '../components'
+import { BreadCrumb } from '../Components'
 // import { Link } from 'react-router-dom'
 export const GalleryPage = () => {
     return (
