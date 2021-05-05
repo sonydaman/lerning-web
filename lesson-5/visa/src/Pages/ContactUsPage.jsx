@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-export const ContactPage = () => {
+export const ContactUsPage = () => {
     // var //let , const
     // eslint-disable-next-line react-hooks/exhaustive-deps
     const result = { name: 'Nidhi', class: 'BTech', subject: 'Computer' };

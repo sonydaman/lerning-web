@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import { Main, PublicLayout } from "./Components";
 // import { Footer, Header } from "./components";
-import { AboutPage, UsersPage, GalleryPage, AcademicPage, BooksPage, AchievementsPage, HomePage, ContactPage } from "./Pages";
+import { AboutPage, UsersPage, GalleryPage, AcademicPage, BooksPage, AchievementsPage, HomePage, ContactUsPage } from "./Pages";
 
 
 export default function Router() {
@@ -39,7 +39,7 @@ export default function Router() {
           </Route>
 
           <Route path="/contact">
-            <ContactPage />
+            <ContactUsPage />
           </Route>
 
           <Route path="/">
