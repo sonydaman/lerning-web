@@ -5,7 +5,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import { Main, PublicLayout } from "./components";
+import { Main, PublicLayout } from "./Components";
 // import { Footer, Header } from "./components";
 import { AboutPage, UsersPage, GalleryPage, AcademicPage, BooksPage, AchievementsPage, HomePage, ContactPage } from "./Pages";
 
