@@ -4,6 +4,7 @@ import { Footer } from "./Footer";
 import { PrivateLayout, PublicLayout } from "./Layout";
 import { Sidebar } from "./Sidebar";
 import { BreadCrumb } from "./BreadCrumb";
+import Img from "./Img";
 
 export {
   Header,
@@ -13,4 +14,5 @@ export {
   PublicLayout,
   Sidebar,
   BreadCrumb,
+  Img,
 };
