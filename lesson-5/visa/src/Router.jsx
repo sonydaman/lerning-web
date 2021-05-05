@@ -8,6 +8,7 @@ import {
 import { Main, PublicLayout } from "./Components";
 // import { Footer, Header } from "./components";
 import { AboutPage, UsersPage, GalleryPage, AcademicPage, BooksPage, AchievementsPage, HomePage, ContactUsPage } from "./Pages";
+import SigninPage from "./Pages/SigninPage";
 
 
 export default function Router() {
@@ -32,6 +33,9 @@ export default function Router() {
           </Route>
           <Route path="/achievements">
             <AchievementsPage />
+          </Route>
+          <Route path="/signin">
+            <SigninPage />
           </Route>
 
           <Route path="/home">
