@@ -4,7 +4,6 @@ import { BreadCrumb } from '../Components';
 import "../style/AboutPage.css";
 export const AboutPage = () => {
     return (
-
         <div>
             <h2>About Us</h2>
             <BreadCrumb pageName="About Us" />
@@ -56,7 +55,6 @@ export const AboutPage = () => {
                     Ratione aliquam, quisquam autem id quaerat tempore! Est porro laborum natus ex quos. Quos dicta accusamus nam! Libero velit possimus, perferendis laboriosam ducimus debitis? Earum veniam dolor libero accusantium temporibus?
                     Alias sunt officiis magni debitis ipsam recusandae qui quibusdam exercitationem pariatur iusto eius sint ea aperiam, dolorem voluptatibus itaque saepe autem modi illum reiciendis, iste dignissimos delectus nobis et. Mollitia.
                     Eligendi vitae veniam sed pariatur quae cumque et inventore doloribus mollitia, illum dolor ipsum dolore cum nihil reiciendis fugiat, blanditiis impedit. Voluptatum esse cumque quam obcaecati doloribus totam, nihil quibusdam?
-                    Quo consequatur quia unde quos similique qui veniam minus? Repudiandae, dolores? Quia perspiciatis neque doloremque sint voluptatibus at corrupti, doloribus enim accusantium quisquam nihil eum suscipit accusamus nemo ipsa voluptas.
                     Tenetur delectus quaerat laborum rerum cumque et animi quisquam, iusto similique vitae ab odio omnis consectetur cum consequatur perspiciatis tempore doloremque assumenda, excepturi provident ex aspernatur accusamus. Nisi, est earum?
                     Dolor, minima nobis tempora aliquid at provident, accusamus odit quos eligendi sapiente saepe a tenetur, cupiditate deleniti atque vel ratione necessitatibus nostrum temporibus. Saepe, pariatur neque eius officiis enim explicabo.
               </div>
