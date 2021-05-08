@@ -8,7 +8,11 @@ import {
 import { Main, PublicLayout } from "./Components";
 // import { Footer, Header } from "./components";
 import { AboutPage, UsersPage, GalleryPage, AcademicPage, BooksPage, AchievementsPage, HomePage, ContactUsPage } from "./Pages";
+import BlogPage from "./Pages/BlogPage";
+import FeaturePage from "./Pages/FeaturePage";
 import SigninPage from "./Pages/SigninPage";
+import KeyboardPage from "./Pages/KeyboardPage";
+import InsertPage from "./Pages/InsertPage";
 
 
 export default function Router() {
@@ -44,6 +48,19 @@ export default function Router() {
 
           <Route path="/contact">
             <ContactUsPage />
+          </Route>
+          <Route path="/blog">
+            <BlogPage />
+          </Route>
+
+          <Route path="/feature">
+            <FeaturePage />
+          </Route>
+          <Route path="/keyboard">
+            <KeyboardPage />
+          </Route>
+          <Route path="/insert">
+            <InsertPage />
           </Route>
 
           <Route path="/">

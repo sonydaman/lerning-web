@@ -1,5 +1,5 @@
 import React from 'react'
-import Achievements from '../Components/Achievements';
+// import Achievements from '../Components/Achievements';
 //import { BreadCrumb } from '../components';
 // import { Col, Row } from 'react-bootstrap'
 export const AchievementsPage = () => {
@@ -28,7 +28,7 @@ export const AchievementsPage = () => {
     return (
         <div>
             <h2>Achievements</h2>
-            <Achievements items={titleData()} />
+            {/* <Achievements items={titleData()} /> */}
         </div>
     )
 }

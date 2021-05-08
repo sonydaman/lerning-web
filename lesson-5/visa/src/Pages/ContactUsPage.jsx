@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Img } from '../Components';
+// import Title from '../Components/Title';
 import Achievement from '../Components/Achievement';
 import LoginComponent from '../Components/LoginComponent';
 import Title from '../Components/Title';
@@ -39,9 +40,9 @@ export const ContactUsPage = () => {
             <div className="userName">{resData.name}</div>
             <div className="userClass">{resData.class}</div>
             <div className="userSubject">{resData.subject}</div>
-            <button onClick={updateRes}> Update Data</button> 
-            <Achievement item={{title:'HI',img:'https://unsplash.it/200/200'}} />
-             <Title titleName="Manvinder" />
+            <button onClick={updateRes}> Update Data</button>
+            {/* <Achievement item={{ title: 'HI', img: 'https://unsplash.it/200/200' }} /> */}
+            {/* <Title titleName="Manvinder" /> */}
             <Img source='https://unsplash.it/200/200?id=12' />
         </div>
 
