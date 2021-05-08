@@ -1,14 +1,12 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.css'
-import { Button, Card, CardDeck, Form, FormControl } from 'react-bootstrap';
+import { Card, CardDeck, Form } from 'react-bootstrap';
 import { BreadCrumb } from '.';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHeartbeat, faShareSquare } from '@fortawesome/free-solid-svg-icons'
+import PostComponent from './PostComponent';
 
 
 export const Main = () => {
-  const UserFullName = ["Rohit Sharma", "Krishan Kumar", "Manpreet Singh", "Aditya Chouhan"]
   return (
     <div className='main-div'>
 
@@ -75,45 +73,8 @@ export const Main = () => {
               <Form.Control.Feedback type="valid">Let's do Something new for you!</Form.Control.Feedback>
             </Form.File>
           </div>
-        </div>
-        {
-          UserFullName.map((name, index) => {
-            const result = {
-              name,
-              index,
-              img: `https://unsplash.it/700/400?id=${index}`
-            }
-            return (
-
-              <div key={result.index} className="container">
-                {result.name}
-
-                <div className="posted-img">
-                  <img src={result.img} alt="" />
-                </div>
-                <div className="button-section">
-                  <div className="mb-2">
-
-                    <Button variant="outline-info">
-                      <FontAwesomeIcon icon={faHeartbeat} />
-                    </Button>
-                  </div>
-                  <div className="mb-2">
-                    <FormControl type="text" placeholder="Comment...." className="mr-sm-2" />
-                  </div>
-
-                  <div className="mb-2">
-
-                    <Button variant="outline-info">
-                      <FontAwesomeIcon icon={faShareSquare} />
-                    </Button>
-                  </div>
-                </div>
-              </div>
-
-            )
-          }
-          )}
+        <PostComponent />
+        </div>        
       </div>
     </div>
   )
