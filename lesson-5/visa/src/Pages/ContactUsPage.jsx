@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import { Img } from '../Components';
 // import Title from '../Components/Title';
+import Achievement from '../Components/Achievement';
+import LoginComponent from '../Components/LoginComponent';
+import Title from '../Components/Title';
 export const ContactUsPage = () => {
     // var //let , const
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -32,7 +35,7 @@ export const ContactUsPage = () => {
     // console.log(resData);
     return (
         <div>
-
+            <LoginComponent title="Contact Us" btnText="Submit" inputText="Mobile" inputT="Name" />
             <input type="text" defaultValue={result.name} />
             <div className="userName">{resData.name}</div>
             <div className="userClass">{resData.class}</div>
