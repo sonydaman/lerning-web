@@ -84,6 +84,11 @@ export const Sidebar = () => {
                     Insert
                 </Link>
             </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/update">
+                    Update
+                </Link>
+            </ListGroup.Item>
 
             <ListGroup.Item></ListGroup.Item>
             <ListGroup.Item>Log Out</ListGroup.Item>
