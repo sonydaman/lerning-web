@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   BrowserRouter,
   Switch,
@@ -13,7 +12,7 @@ import FeaturePage from "./Pages/FeaturePage";
 import SigninPage from "./Pages/SigninPage";
 import KeyboardPage from "./Pages/KeyboardPage";
 import InsertPage from "./Pages/InsertPage";
-
+import UpdatePage from "./Pages/UpdatePage";
 
 export default function Router() {
   return (
@@ -61,6 +60,9 @@ export default function Router() {
           </Route>
           <Route path="/insert">
             <InsertPage />
+          </Route>
+          <Route path="/update">
+            <UpdatePage />
           </Route>
 
           <Route path="/">
