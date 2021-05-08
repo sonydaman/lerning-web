@@ -1,32 +1,35 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Button, Col, Form, FormLabel, Row } from 'react-bootstrap'
+import "../style/signin.css"
 
 const LoginPage = props => {
     return (
-      <div>
-        <div className="Login-Box">
+      <div className="container m-auto">
+        <div className="Login-Box text-center">
           <div className="Login-logo">FUNBOOK</div>
           <div className="form-container">
             <p>Sign in to start your session</p>
             <Form>
               <Row>
-                <div>
+                <Col lg-8 md-8 sm-8>
                   <input
                     type="email"
                     className="input-field"
                     placeholder="Email"
                     name="email"
                   />
-                </div>
-                <div>
+                </Col>
+              </Row>
+              <Row>
+                <Col lg-8 md-8 sm-8>
                   <input
                     type="password"
                     className="input-field"
                     placeholder="Password"
                     name="Password"
                   />
-                </div>
+                </Col>
               </Row>
               <Row>
                 <Col>
@@ -39,8 +42,10 @@ const LoginPage = props => {
                     Remember me
                   </FormLabel>
                 </Col>
+              </Row>
+              <Row>
                 <Col>
-                  <Button type="submit"> Sign in</Button>
+                  <Button className="submit-btn"type="submit"> Sign in</Button>
                 </Col>
               </Row>
             </Form>
