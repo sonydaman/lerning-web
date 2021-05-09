@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   BrowserRouter,
   Switch,
@@ -13,7 +12,8 @@ import FeaturePage from "./Pages/FeaturePage";
 import SigninPage from "./Pages/SigninPage";
 import KeyboardPage from "./Pages/KeyboardPage";
 import InsertPage from "./Pages/InsertPage";
-
+import UpdatePage from "./Pages/UpdatePage";
+import DeletePage from "./Pages/DeletePage";
 
 export default function Router() {
   return (

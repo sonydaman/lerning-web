@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 
 import "../style/signin.css"
 import LoginComponent from '../Components/LoginComponent'
