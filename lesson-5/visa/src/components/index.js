@@ -5,6 +5,7 @@ import { PrivateLayout, PublicLayout } from "./Layout";
 import { Sidebar } from "./Sidebar";
 import { BreadCrumb } from "./BreadCrumb";
 import Img from "./Img";
+import Card from "./Card";
 
 export {
   Header,
@@ -15,5 +16,7 @@ export {
   Sidebar,
   BreadCrumb,
   Img,
+  Card,
+  
 };
   
