@@ -13,6 +13,7 @@ import SigninPage from "./Pages/SigninPage";
 import KeyboardPage from "./Pages/KeyboardPage";
 import InsertPage from "./Pages/InsertPage";
 import UpdatePage from "./Pages/UpdatePage";
+import DeletePage from "./Pages/DeletePage";
 
 export default function Router() {
   return (
@@ -63,6 +64,9 @@ export default function Router() {
           </Route>
           <Route path="/update">
             <UpdatePage />
+          </Route>
+          <Route path="/delete">
+            <DeletePage />
           </Route>
 
           <Route path="/">
