@@ -89,7 +89,11 @@ export const Sidebar = () => {
                     Update
                 </Link>
             </ListGroup.Item>
-
+            <ListGroup.Item>
+                <Link to="/delete">
+                    Delete
+                </Link>
+            </ListGroup.Item>
             <ListGroup.Item></ListGroup.Item>
             <ListGroup.Item>Log Out</ListGroup.Item>
         </ListGroup>
