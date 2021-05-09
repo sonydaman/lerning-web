@@ -14,6 +14,7 @@ import KeyboardPage from "./Pages/KeyboardPage";
 import InsertPage from "./Pages/InsertPage";
 import UpdatePage from "./Pages/UpdatePage";
 import DeletePage from "./Pages/DeletePage";
+import { productspage } from "./Pages/ProductsPage";
 
 export default function Router() {
   return (
@@ -62,9 +63,10 @@ export default function Router() {
           <Route path="/insert">
             <InsertPage />
           </Route>
-          <Route path="/Product">
-            <ProductPage />
+          <Route path="/product">
+            <productspage />
           </Route>
+
 
           <Route path="/">
             <Main />
