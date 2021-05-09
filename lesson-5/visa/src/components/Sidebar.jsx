@@ -85,15 +85,11 @@ export const Sidebar = () => {
                 </Link>
             </ListGroup.Item>
             <ListGroup.Item>
-                <Link to="/update">
-                    Update
+                <Link to="/Product">
+                    Product
                 </Link>
             </ListGroup.Item>
-            <ListGroup.Item>
-                <Link to="/delete">
-                    Delete
-                </Link>
-            </ListGroup.Item>
+
             <ListGroup.Item></ListGroup.Item>
             <ListGroup.Item>Log Out</ListGroup.Item>
         </ListGroup>

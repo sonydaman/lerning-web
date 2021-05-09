@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import { Main, PublicLayout } from "./Components";
 // import { Footer, Header } from "./components";
-import { AboutPage, UsersPage, GalleryPage, AcademicPage, BooksPage, AchievementsPage, HomePage, ContactUsPage } from "./Pages";
+import { AboutPage, UsersPage, GalleryPage, AcademicPage, BooksPage, AchievementsPage, HomePage, ContactUsPage, ProductPage, } from "./Pages";
 import BlogPage from "./Pages/BlogPage";
 import FeaturePage from "./Pages/FeaturePage";
 import SigninPage from "./Pages/SigninPage";
@@ -62,11 +62,8 @@ export default function Router() {
           <Route path="/insert">
             <InsertPage />
           </Route>
-          <Route path="/update">
-            <UpdatePage />
-          </Route>
-          <Route path="/delete">
-            <DeletePage />
+          <Route path="/Product">
+            <ProductPage />
           </Route>
 
           <Route path="/">

@@ -6,6 +6,7 @@ import { AcademicPage } from "./Academicpage";
 import { BooksPage } from "./BooksPage";
 import { AchievementsPage } from "./AchievementsPage";
 import { ContactUsPage } from "./ContactUsPage";
+import { ProductPage } from "./ProductPage";
 
 export {
   HomePage,
@@ -16,4 +17,5 @@ export {
   BooksPage,
   AchievementsPage,
   ContactUsPage,
+  ProductPage,
 };
