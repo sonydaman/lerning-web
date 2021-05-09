@@ -6,9 +6,9 @@ import Achievements from '../Components/Achievement'
 const ProductsPage = props => {
     return (
         <div>
-            <h1 className="update">update</h1>
+            <h1 className="update">product1</h1>
             <div className="key-img">
-                <img src="https://unsplash.it/850/200?id=1" alt=""></img>
+                <img src="https://unsplash.it/200/200?id=1" alt=""></img>
             </div>
         </div>
 
