@@ -89,7 +89,11 @@ export const Sidebar = () => {
                     Product
                 </Link>
             </ListGroup.Item>
-
+            <ListGroup.Item>
+                <Link to="/productspage">
+                    ProductsPage
+                </Link>
+            </ListGroup.Item>
             <ListGroup.Item></ListGroup.Item>
             <ListGroup.Item>Log Out</ListGroup.Item>
         </ListGroup>
