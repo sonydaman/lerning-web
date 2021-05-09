@@ -90,8 +90,13 @@ export const Sidebar = () => {
                 </Link>
             </ListGroup.Item>
             <ListGroup.Item>
-                <Link to="/productspage">
+                <Link to="/products">
                     ProductsPage
+                </Link>
+            </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/select">
+                    SelectPage
                 </Link>
             </ListGroup.Item>
             <ListGroup.Item></ListGroup.Item>
