@@ -104,6 +104,16 @@ export const Sidebar = () => {
                     TabPage
                 </Link>
             </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/product">
+                    ProductPage
+                </Link>
+            </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/caps">
+                    CapsPage
+                </Link>
+            </ListGroup.Item>
             <ListGroup.Item></ListGroup.Item>
             <ListGroup.Item>Log Out</ListGroup.Item>
         </ListGroup>
