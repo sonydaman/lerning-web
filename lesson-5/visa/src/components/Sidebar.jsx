@@ -114,6 +114,12 @@ export const Sidebar = () => {
                     CapsPage
                 </Link>
             </ListGroup.Item>
+
+            <ListGroup.Item>
+                <Link to="/profile">
+                    ProfilePage
+                </Link>
+            </ListGroup.Item>
             <ListGroup.Item></ListGroup.Item>
             <ListGroup.Item>Log Out</ListGroup.Item>
         </ListGroup>
