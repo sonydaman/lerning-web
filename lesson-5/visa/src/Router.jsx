@@ -20,6 +20,7 @@ import { SelectPage } from "./Pages/SelectPage";
 import TabPage from "./Pages/TabPage";
 import { CapsPage } from "./Pages/Caps Page";
 import ProfilePage from "./Pages/ProfilePage";
+import LoginPage from "./Pages/SigninPage";
 
 export default function Router() {
   return (
@@ -94,6 +95,9 @@ export default function Router() {
             <ProfilePage />
           </Route>
 
+          <Route path="/login">
+            <LoginPage />
+          </Route>
 
 
           <Route path="/">
