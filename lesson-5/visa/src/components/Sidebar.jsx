@@ -99,6 +99,11 @@ export const Sidebar = () => {
                     SelectPage
                 </Link>
             </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/tab">
+                    TabPage
+                </Link>
+            </ListGroup.Item>
             <ListGroup.Item></ListGroup.Item>
             <ListGroup.Item>Log Out</ListGroup.Item>
         </ListGroup>
