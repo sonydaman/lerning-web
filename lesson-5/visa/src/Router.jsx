@@ -19,6 +19,7 @@ import ProductsPage from "./Pages/ProductsPage";
 import { SelectPage } from "./Pages/SelectPage";
 import TabPage from "./Pages/TabPage";
 import { CapsPage } from "./Pages/Caps Page";
+import ProfilePage from "./Pages/ProfilePage";
 
 export default function Router() {
   return (
@@ -87,6 +88,10 @@ export default function Router() {
 
           <Route path="/caps">
             <CapsPage />
+          </Route>
+
+          <Route path="/profile">
+            <ProfilePage />
           </Route>
 
 
