@@ -14,9 +14,11 @@ import KeyboardPage from "./Pages/KeyboardPage";
 import InsertPage from "./Pages/InsertPage";
 import UpdatePage from "./Pages/UpdatePage";
 import DeletePage from "./Pages/DeletePage";
-import ProductsPage, { productspage } from "./Pages/ProductsPage";
+import ProductsPage from "./Pages/ProductsPage";
+
 import { SelectPage } from "./Pages/SelectPage";
 import TabPage from "./Pages/TabPage";
+import { CapsPage } from "./Pages/Caps Page";
 
 export default function Router() {
   return (
@@ -68,11 +70,23 @@ export default function Router() {
           <Route path="/products">
             <ProductsPage />
           </Route>
+
+          <Route path="/product">
+            <ProductPage />
+          </Route>
           <Route path="/select">
             <SelectPage />
           </Route>
           <Route path="/tab">
             <TabPage />
+          </Route>
+
+          <Route path="/tab">
+            <TabPage />
+          </Route>
+
+          <Route path="/caps">
+            <CapsPage />
           </Route>
 
 
