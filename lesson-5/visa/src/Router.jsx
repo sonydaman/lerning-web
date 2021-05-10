@@ -16,6 +16,7 @@ import UpdatePage from "./Pages/UpdatePage";
 import DeletePage from "./Pages/DeletePage";
 import ProductsPage, { productspage } from "./Pages/ProductsPage";
 import { SelectPage } from "./Pages/SelectPage";
+import TabPage from "./Pages/TabPage";
 
 export default function Router() {
   return (
@@ -69,6 +70,9 @@ export default function Router() {
           </Route>
           <Route path="/select">
             <SelectPage />
+          </Route>
+          <Route path="/tab">
+            <TabPage />
           </Route>
 
 
