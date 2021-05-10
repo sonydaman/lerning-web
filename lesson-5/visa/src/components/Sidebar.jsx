@@ -60,7 +60,7 @@ export const Sidebar = () => {
             </ListGroup.Item>
             <ListGroup.Item>
                 <Link to="/contact">
-
+                    Contact
                 </Link>
             </ListGroup.Item>
             <ListGroup.Item>Contact</ListGroup.Item>
@@ -120,6 +120,12 @@ export const Sidebar = () => {
                     ProfilePage
                 </Link>
             </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/login">
+                    Login
+                </Link>
+            </ListGroup.Item>
+
             <ListGroup.Item></ListGroup.Item>
             <ListGroup.Item>Log Out</ListGroup.Item>
         </ListGroup>
