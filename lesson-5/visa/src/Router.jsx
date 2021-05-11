@@ -21,6 +21,8 @@ import TabPage from "./Pages/TabPage";
 import { CapsPage } from "./Pages/Caps Page";
 import ProfilePage from "./Pages/ProfilePage";
 import LoginPage from "./Pages/SigninPage";
+import ShiftPage from "./Pages/ShiftPage";
+import GayatriPage from "./Pages/GayatriPage";
 
 export default function Router() {
   return (
@@ -97,6 +99,13 @@ export default function Router() {
 
           <Route path="/login">
             <LoginPage />
+          </Route>
+
+          <Route path="/shift">
+            <ShiftPage />
+          </Route>
+          <Route path="/gayatri">
+            <GayatriPage />
           </Route>
 
 
