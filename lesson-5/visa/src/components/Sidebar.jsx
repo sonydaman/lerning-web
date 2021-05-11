@@ -135,6 +135,11 @@ export const Sidebar = () => {
                     GayatriPage
                 </Link>
             </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/alt">
+                    AltPage
+                </Link>
+            </ListGroup.Item>
 
             <ListGroup.Item></ListGroup.Item>
             <ListGroup.Item>Log Out</ListGroup.Item>
