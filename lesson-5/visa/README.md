@@ -95,4 +95,23 @@ redux(browser ram memory)
     -- action
     -- reducer
     -- store
-          
+
+
+component 3
+    simple html <ComponentName/>
+    smart html <ComponentName propA={propA}/>
+    <PublicLayout>
+        <Router>
+            <Page>
+        </Router>
+    </PublicLayout>
+    Hooks
+    useReducer,useContext,CreateContext,provider
+    customHook (api calls)
+
+    createContext  initialize
+    useReducer
+    new data (hold the data)
+
+    component (props)
+    useContext receive data

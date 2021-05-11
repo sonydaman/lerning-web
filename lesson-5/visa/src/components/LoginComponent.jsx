@@ -11,7 +11,7 @@ function LoginComponent(props) {
             <p>{title}</p>
             <Form>
               <Row>
-                <Col lg-8 md-8 sm-8>
+                <Col lg={8} md={8} sm={8}>
                   <input
                     type="email"
                     className="input-field"
@@ -21,7 +21,7 @@ function LoginComponent(props) {
                 </Col>
               </Row>
               <Row>
-                <Col lg-8 md-8 sm-8>
+                <Col  lg={8} md={8} sm={8}>
                   <input
                     type="password"
                     className="input-field"
