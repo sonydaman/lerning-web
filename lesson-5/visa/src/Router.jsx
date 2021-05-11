@@ -24,6 +24,7 @@ import LoginPage from "./Pages/SigninPage";
 import ShiftPage from "./Pages/ShiftPage";
 import GayatriPage from "./Pages/GayatriPage";
 import AltPage from "./Pages/AltPage";
+import WindowPage from "./Pages/WindowPage";
 
 export default function Router() {
   return (
@@ -111,6 +112,9 @@ export default function Router() {
 
           <Route path="/alt">
             <AltPage />
+          </Route>
+          <Route path="/window">
+            <WindowPage />
           </Route>
 
 
