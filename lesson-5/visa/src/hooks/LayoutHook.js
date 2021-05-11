@@ -2,7 +2,6 @@ import { createContext, useContext } from "react";
 // const initialData = { theme: "green" };
 const LayoutContext = createContext();
 const useLayout = () => useContext(LayoutContext);
-
 const initialState = { count: 0, userProfile: {}, isLoggedIn: false };
 
 function LayoutReducer(state, action) {
