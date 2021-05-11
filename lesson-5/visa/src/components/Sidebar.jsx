@@ -125,6 +125,16 @@ export const Sidebar = () => {
                     Login
                 </Link>
             </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/shift">
+                    ShiftPage
+                </Link>
+            </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/gayatri">
+                    GayatriPage
+                </Link>
+            </ListGroup.Item>
 
             <ListGroup.Item></ListGroup.Item>
             <ListGroup.Item>Log Out</ListGroup.Item>
