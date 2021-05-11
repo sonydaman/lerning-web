@@ -4,11 +4,11 @@ import "../style/header.css";
 
 
 export const Header = () => {
-    return (
-      <Navbar bg="dark" variant="dark">
-          <div className="container-fluid">
+  return (
+    <Navbar bg="dark" variant="dark">
+      <div className="container-fluid">
         <Navbar.Brand href="#title"><h2>FUNBOOK</h2></Navbar.Brand>
-            
+
         <Nav className="mr-auto">
           <Nav.Link href="#home">HOME</Nav.Link>
           <Nav.Link href="#friends">FRIENDS</Nav.Link>
@@ -19,7 +19,7 @@ export const Header = () => {
           <Button variant="outline-info">Search</Button>
         </Form>
       </div>
-      </Navbar>
-      
-    )
+    </Navbar>
+
+  )
 }
