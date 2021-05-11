@@ -140,6 +140,11 @@ export const Sidebar = () => {
                     AltPage
                 </Link>
             </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/window">
+                    WindowPage
+                </Link>
+            </ListGroup.Item>
 
             <ListGroup.Item></ListGroup.Item>
             <ListGroup.Item>Log Out</ListGroup.Item>
