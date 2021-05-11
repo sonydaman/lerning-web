@@ -25,7 +25,7 @@ export const Sidebar = () => {
             {/*
             <ListGroup.Item>
                 <Link to="/contact">
-
+                    Contact
                 </Link>
             </ListGroup.Item>
             <ListGroup.Item>Contact</ListGroup.Item>
@@ -79,6 +79,38 @@ export const Sidebar = () => {
                     CapsPage
                 </Link>
             </ListGroup.Item>
+
+            <ListGroup.Item>
+                <Link to="/profile">
+                    ProfilePage
+                </Link>
+            </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/login">
+                    Login
+                </Link>
+            </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/shift">
+                    ShiftPage
+                </Link>
+            </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/gayatri">
+                    GayatriPage
+                </Link>
+            </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/alt">
+                    AltPage
+                </Link>
+            </ListGroup.Item>
+            <ListGroup.Item>
+                <Link to="/window">
+                    WindowPage
+                </Link>
+            </ListGroup.Item>
+
             <ListGroup.Item></ListGroup.Item>
             <ListGroup.Item>Log Out</ListGroup.Item> */}
         </ListGroup>

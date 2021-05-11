@@ -19,6 +19,12 @@ import ProductsPage from "./Pages/ProductsPage";
 import { SelectPage } from "./Pages/SelectPage";
 import TabPage from "./Pages/TabPage";
 import { CapsPage } from "./Pages/Caps Page";
+import ProfilePage from "./Pages/ProfilePage";
+import LoginPage from "./Pages/SigninPage";
+import ShiftPage from "./Pages/ShiftPage";
+import GayatriPage from "./Pages/GayatriPage";
+import AltPage from "./Pages/AltPage";
+import WindowPage from "./Pages/WindowPage";
 
 export default function Router() {
   return (
@@ -89,6 +95,27 @@ export default function Router() {
             <CapsPage />
           </Route>
 
+          <Route path="/profile">
+            <ProfilePage />
+          </Route>
+
+          <Route path="/login">
+            <LoginPage />
+          </Route>
+
+          <Route path="/shift">
+            <ShiftPage />
+          </Route>
+          <Route path="/gayatri">
+            <GayatriPage />
+          </Route>
+
+          <Route path="/alt">
+            <AltPage />
+          </Route>
+          <Route path="/window">
+            <WindowPage />
+          </Route>
 
 
           <Route path="/">
