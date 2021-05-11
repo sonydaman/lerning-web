@@ -5,7 +5,7 @@ const LoginPage = props => {
     return (
         <div className="container">
 
-            <LoginComponent title="log in start your work" btntext="signin" inputtext="email" inputText="password" isRemember />
+            <LoginComponent title="log in start your work" btnText="Login" inputText="userName" inputT="Password" isRemember />
         </div>
     )
 }
