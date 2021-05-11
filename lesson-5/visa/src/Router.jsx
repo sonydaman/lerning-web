@@ -23,6 +23,7 @@ import ProfilePage from "./Pages/ProfilePage";
 import LoginPage from "./Pages/SigninPage";
 import ShiftPage from "./Pages/ShiftPage";
 import GayatriPage from "./Pages/GayatriPage";
+import AltPage from "./Pages/AltPage";
 
 export default function Router() {
   return (
@@ -106,6 +107,10 @@ export default function Router() {
           </Route>
           <Route path="/gayatri">
             <GayatriPage />
+          </Route>
+
+          <Route path="/alt">
+            <AltPage />
           </Route>
 
 
