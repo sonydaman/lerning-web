@@ -3,10 +3,12 @@ import { createContext, useContext } from "react";
 const LayoutContext = createContext();
 const useLayout = () => useContext(LayoutContext);
 
-const initialState = { count: 0 };
+const initialState = { count: 0, userProfile: {}, isLoggedIn: false };
 
 function LayoutReducer(state, action) {
   switch (action.type) {
+    case "loggedIn":
+      return { ...initialState, isLoggedIn: true };
     case "increment":
       return { count: state.count + 1 };
     case "decrement":

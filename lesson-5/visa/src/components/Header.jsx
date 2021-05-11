@@ -5,7 +5,7 @@ import "../style/header.css";
 
 
 export const Header = () => {
-     const {dispatch,state} = useLayout();
+    const {dispatch,state} = useLayout();
     const handelBtn = ()=>{
       dispatch({type:'decrement'})
     }
