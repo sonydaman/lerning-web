@@ -6,6 +6,7 @@ import InfoButton from '../Components/Components-Button/InfoButton'
 
 
 
+
 const FeaturePage = props => {
     return (
         <div className="feature-page">
