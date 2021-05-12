@@ -4,9 +4,9 @@ import PropTypes from 'prop-types'
 const DefaulltButton = props => {
     return (
         <div>
-            <buttton className="button">
-                hi this is a column
-            </buttton>
+            <button className="button">
+                hi this is default
+           </button>
         </div>
     )
 }
