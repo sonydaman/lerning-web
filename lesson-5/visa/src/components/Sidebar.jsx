@@ -17,6 +17,27 @@ export const Sidebar = () => {
             {url:'/home',linkText:'HomePage'},
             {url:'/contact',linkText:'ContactPage'},
             {url:'/signin',linkText:'Sign In'},
+            {url:'/blog',linkText:'Blog'},
+            {url:'/feature',linkText:'Feature'},
+            {url:'/keyboard',linkText:'Keyboard'},
+            {url:'/insert',linkText:'Insert'},
+            {url:'/products',linkText:'ProductsPage'},
+            {url:'/select',linkText:'SelectPage'},
+            {url:'/tab',linkText:'TabPage'},
+            {url:'/product',linkText:'ProductPage'},
+            {url:'/caps',linkText:'CapsPage'},
+            {url:'/profile',linkText:'ProfilePage'},
+            {url:'/login',linkText:'Login'},
+            {url:'/shift',linkText:'ShiftPage'},
+            {url:'/gayatri',linkText:'Gayatri'},
+            {url:'/alt',linkText:'Altpage'},
+            {url:'/window',linkText:'WindowPage'},
+           // {url:'/delete',linkText:'DeletePage'},
+           // {url:'/landing',linkText:'LandingPage'},
+           // {url:'/update',linkText:'UpdatePage'},
+           // {url:'/oursocialsite',linkText:'OurSocialSitePage'},
+            
+
         ]
     return (
 
