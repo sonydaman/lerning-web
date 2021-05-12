@@ -1,12 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import DangerButton from '../Components/Components-Button/DangerButton'
+import SuccessButton from '../Components/Components-Button/SuccessButton'
 
 const ShiftPage = props => {
     return (
         <>
             <div className="head">
                 <DangerButton></DangerButton>
+                <SuccessButton />
                 <h1>test1</h1>
                 <img src="https:unsplash.it/200/200"></img>
             </div>
