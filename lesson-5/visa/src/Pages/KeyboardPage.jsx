@@ -3,11 +3,13 @@ import PropTypes from 'prop-types'
 import Achievement from '../Components/Achievement'
 import Achievements from '../Components/Achievements'
 import PrimaryButton from '../Components/Components-Button/PrimaryButton'
+import DarkButton from '../Components/Components-Button/DarkButton'
 
 const FeaturePage = props => {
     return (
         <div className="feature-page">
             <PrimaryButton></PrimaryButton>
+            <DarkButton />
             <Achievements items={
                 [
                     { title: 'Test1', img: 'https://unsplash.it/200/200' },
