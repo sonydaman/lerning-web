@@ -4,8 +4,8 @@ import { useLayout } from '../hooks/LayoutHook';
 // import { Link } from 'react-router-dom'
 
 export const AcademicPage = () => {
-    const {state} = useLayout();
-    // console.log(state);
+    const { state } = useLayout();
+    //console.log(state);
     return (
 
         <div className="academic-page">
