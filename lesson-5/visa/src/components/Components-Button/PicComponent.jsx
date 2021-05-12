@@ -5,9 +5,10 @@ const PicComponent = props => {
     return (
         <div>
             <div className="img">
-                <img src="https://unsplash.it/200/200"></img>
+                <img src="https://unsplash.it/100/200"></img>
             </div>
         </div>
+
     )
 }
 
