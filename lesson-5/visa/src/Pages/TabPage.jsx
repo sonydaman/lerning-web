@@ -2,9 +2,13 @@ import React from 'react'
 import propTypes from 'prop-types'
 import Achievement from '../Components/Achievement'
 import Achievements from '../Components/Achievements'
+import PhotoComponent from '../Components/Components-Button/PhotoComponent'
+
 const TabPage = props => {
     return (
         <div className="tab-page">
+            <PhotoComponent />
+
             <Achievements items={
                 [{ title: 'Test1', img: 'https:unsplash.it/200/200' },
                 { title: 'Test2', img: 'https:unsplash.it/200/200?id=1' },
