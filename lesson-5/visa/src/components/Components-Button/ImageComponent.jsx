@@ -7,6 +7,7 @@ const ImageComponent = props => {
             <div className="img">
                 <img src="https:unsplash.it/200/200"></img>
             </div>
+
         </div>
     )
 }
