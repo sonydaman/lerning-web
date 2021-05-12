@@ -1,4 +1,4 @@
-  import { createContext, useContext } from "react";
+import { createContext, useContext } from "react";
 // const initialData = { theme: "green" };
 const LayoutContext = createContext();
 const useLayout = () => useContext(LayoutContext);
