@@ -1,12 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import DefaulltButton from '../Components/Components-Button/DefaulltButton'
 
 const GayatriPage = props => {
     return (
         <>
             <div className="img1">
-                <DefaulltButton />
+
                 <img src="https://unsplash.it/50/50"></img>
                 <h1>Gayatri Tutorial</h1>
                 <img src="https://unsplash.it/50/50"></img>
