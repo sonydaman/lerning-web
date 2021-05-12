@@ -15,7 +15,6 @@ function LayoutReducer(state, action) {
             throw new Error();
     }
 }
-
 const LayoutProvider = LayoutContext.Provider;
 export {
     LayoutContext,
