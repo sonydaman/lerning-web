@@ -115,3 +115,24 @@ component 3
 
     component (props)
     useContext receive data
+
+
+if(condition true){
+
+}
+else{
+
+}
+
+if(state.isLoggedIn) 
+{
+      const router =   ['loggedin router']
+} 
+else
+{
+   const router =  ['not logged in router']
+}
+
+ condition ? true : false
+
+ const router = state.isLoggedIn ? ['loggedin router'] : ['not logged in router']

@@ -5,7 +5,7 @@ import { useLayout } from '../hooks/LayoutHook';
 
 export const AcademicPage = () => {
     const { state } = useLayout();
-    //console.log(state);
+    console.log(state);
     return (
 
         <div className="academic-page">

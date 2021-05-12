@@ -37,7 +37,7 @@ function LoginComponent(props) {
                     className="form-check-input"
                     id="dropdownCheck"
                   />
-                  <FormLabel className="form-check-label" for="dropdownCheck">
+                  <FormLabel className="form-check-label" htmlFor="dropdownCheck">
                     Remember me
                   </FormLabel>
                 </Col>
