@@ -1,16 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import DangerButton from './DangerButton'
-import SuccessButton from './SuccessButton'
 const DangerButton = props => {
     return (
         <div>
-            <div className="text1">
-                <DangerButton />
-            </div>
-            <div className="text2">
-                <SuccessButton />
-            </div>
+            <button className="button">
+                hi this is a test
+            </button>
+
         </div>
     )
 }
