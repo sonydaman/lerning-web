@@ -1,10 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import InputButton from '../Components/Components-Button/InputButton'
 
 const AltPage = props => {
     return (
         <>
             <div classname="test1">
+                <InputButton />
                 <h1>AltKey</h1>
                 <h3>key1</h3>
                 <img src="https:unsplash.it/200/200"></img>
