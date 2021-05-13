@@ -136,3 +136,4 @@ else
  condition ? true : false
 
  const router = state.isLoggedIn ? ['loggedin router'] : ['not logged in router']
+ ***Error solving***
