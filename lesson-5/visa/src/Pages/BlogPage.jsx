@@ -8,6 +8,7 @@ const BlogPage = props => {
         <div className="blog-page">
             <Achievements items={
                 [
+       
                     { title: 'Blog 1', img: 'https://unsplash.it/200/200' },
                     { title: 'Blog 2', img: 'https://unsplash.it/200/200?id=1' },
                     { title: 'Blog 3', img: 'https://unsplash.it/200/200?id=2' }
