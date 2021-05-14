@@ -1,5 +1,5 @@
 import React,{Fragment} from 'react'
-import { Button, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
+import { Button, Dropdown, DropdownButton, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
 import { useLayout } from '../hooks/LayoutHook';
 import "../style/header.css";
 
@@ -23,23 +23,39 @@ export const Header = () => {
           <div className="container-fluid">
         <Navbar.Brand href="#title"><h2>FUNBOOK</h2></Navbar.Brand>
         {/*     <Button onClick={handelBtn}> Decrease </Button> */}
+        { state.isLoggedIn && 
+            <Fragment>
         <Nav className="mr-auto">
           <Nav.Link href="#home">HOME</Nav.Link>
           <Nav.Link href="#friends">FRIENDS</Nav.Link>
           <Nav.Link href="#pricing">MORE</Nav.Link>
         </Nav>
         {/* <p style={{color:'#fff'}}>{state.count}</p> */}
-        <Form inline>
-          { !state.isLoggedIn && 
-            <Fragment>
+        
+       </Fragment>}
+       {/* <Form inline>          
               <FormControl type="email" placeholder="abc@email.com" className="mr-sm-2" />
-              <FormControl type="password" placeholder="Password" className="mr-sm-2" />
-            </Fragment>
-          }
-          <Button onClick={handel}>
+              <FormControl type="password" placeholder="Password" className="mr-sm-2" />  
+        </Form> */}
+        
+        <div className="drop-btn">
+        <DropdownButton
+         menuAlign="right"
+         >
+          <Dropdown.Item className="drop" href="#/action-1">
+          <div className="header-right">
+            <img src="https://unsplash.it/100/180?id=4"  alt="" />
+          </div>
+          </Dropdown.Item>
+          <Dropdown.Item className="drop"  href="#/action-2">Soni Daman</Dropdown.Item>
+          <Dropdown.Item className="drop" href="#/action-3">Profile</Dropdown.Item>
+          <Dropdown.Item className="drop" href="#/action-3">Setting</Dropdown.Item>
+          <Dropdown.Item className="drop" href="#/action-3">Sign Out</Dropdown.Item>
+        </DropdownButton>
+        </div>
+       {/* <Button onClick={handel}>
             {state.isLoggedIn ? 'Sign Out' : 'Login'}
-          </Button>
-        </Form>
+          </Button> */}
       </div>
       </Navbar>
       

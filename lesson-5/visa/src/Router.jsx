@@ -36,6 +36,7 @@ export default function Router() {
                         {path:"/profile",component:<ProfilePage />} 
                       ];
   const privateRoute = [
+    {path:"/main",component:<Main />},
     {path:"/about",component:<AboutPage />},
     {path:"/gallery",component:<GalleryPage />},
     {path:"/profile",component:<ProfilePage />} 
