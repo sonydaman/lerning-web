@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Achievement from '../Components/Achievement'
+//import Achievement from '../Components/Achievement'
 import Achievements from '../Components/Achievements'
 
 

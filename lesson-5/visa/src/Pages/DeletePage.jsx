@@ -1,8 +1,8 @@
 import propTypes from 'prop-types'
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import Achievement from '../Components/Achievement'
-import Achievements from '../Components/Achievement'
+//import Achievement from '../Components/Achievement'
+import Achievements from '../Components/Achievements'
 //import { Img } from '../Components'
 
 const DeletePage = (props) => {
