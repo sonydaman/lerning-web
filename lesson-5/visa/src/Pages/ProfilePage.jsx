@@ -1,17 +1,27 @@
 import React from 'react'
 import propTypes from 'prop-types'
-import Achievement from '../Components/Achievement'
-import Achievements from '../Components/Achievements'
+import { useLayout } from '../hooks/LayoutHook'
 
 const ProfilePage = props => {
+    const {state} = useLayout();
+    // console.log(state);
+    const {phoneNumber,email,firstName,lastName} = state.userProfile;
     return (
         <div>
             <h1 className="profile">profile</h1>
+            <div className="row border">
+                <div className="col-6 border">Name</div>
+                <div className="col-6 border">{firstName} {lastName}</div>
+                <div className="col-6 border">PhoneNumber</div>
+                <div className="col-6 border">{phoneNumber}</div>
+                <div className="col-6 border">Email</div>
+                <div className="col-6 border">{email}</div>
+            </div>
             <div className="img">
-                <img src="https:unsplash.it/200/200"></img>
-                <img src="https:unsplash.it/200/200"></img>
-                <img src="https:unsplash.it/200/200"></img>
-                 <img src="https:unsplash.it/200/200"></img>
+                <img alt="img-1" src="https:unsplash.it/200/200"></img>
+                <img alt="img-2" src="https:unsplash.it/200/200"></img>
+                <img alt="img-3" src="https:unsplash.it/200/200"></img>
+                 <img alt="img-4" src="https:unsplash.it/200/200"></img>
                
             </div>
             <div className="desc">

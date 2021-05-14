@@ -10,7 +10,24 @@ function LayoutReducer(state, action) {
     case "loggedIn":
       // state.isLoggedIn = true;
       // return state;
-      return { ...state, isLoggedIn: true };
+      return {
+        ...state,
+        isLoggedIn: true,
+        userProfile: {
+          phoneNumber: "1234567890",
+          email: "abc@gmail.com",
+          firstName: "Name",
+          lastName: "Last",
+        },
+      };
+    case "logOut":
+      // state.isLoggedIn = false;
+      // return state;
+      return {
+        ...state,
+        isLoggedIn: false,
+        userProfile: {},
+      };
     case "increment":
       return { ...state, count: state.count + 1 };
     case "decrement":

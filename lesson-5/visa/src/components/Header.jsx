@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{Fragment} from 'react'
 import { Button, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
 import { useLayout } from '../hooks/LayoutHook';
 import "../style/header.css";
@@ -7,7 +7,13 @@ import "../style/header.css";
 export const Header = () => {
     const {dispatch,state} = useLayout();
     const handel= ()=>{
-      dispatch({type:'loggedIn'})
+      // if(state.isLoggedIn)
+      //   dispatch({type:'logOut'})
+      // else
+      //   dispatch({type:'loggedIn'})
+      // state.isLoggedIn ? dispatch({type:'logOut'}) : dispatch({type:'loggedIn'})
+      const isLoggedIn = state.isLoggedIn ? 'logOut' : 'loggedIn';
+      dispatch({type:isLoggedIn})
     }
     // const handelBtn = ()=>{
     //   dispatch({type:'decrement'})
@@ -24,8 +30,12 @@ export const Header = () => {
         </Nav>
         {/* <p style={{color:'#fff'}}>{state.count}</p> */}
         <Form inline>
-          <FormControl type="email" placeholder="abc@email.com" className="mr-sm-2" />
-          <FormControl type="password" placeholder="Password" className="mr-sm-2" />
+          { !state.isLoggedIn && 
+            <Fragment>
+              <FormControl type="email" placeholder="abc@email.com" className="mr-sm-2" />
+              <FormControl type="password" placeholder="Password" className="mr-sm-2" />
+            </Fragment>
+          }
           <Button onClick={handel}>
             {state.isLoggedIn ? 'Sign Out' : 'Login'}
           </Button>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useReducer } from "react";
 import {
   BrowserRouter,
   Switch,
@@ -25,19 +25,44 @@ import ShiftPage from "./Pages/ShiftPage";
 import GayatriPage from "./Pages/GayatriPage";
 import AltPage from "./Pages/AltPage";
 import WindowPage from "./Pages/WindowPage";
+import { initialState, LayoutReducer, useLayout } from "./hooks/LayoutHook";
 
 export default function Router() {
+  const publicRoute = [
+                        {path:"/signin",component:<SigninPage />},
+                        {path:"/contact",component:<ContactUsPage />},
+                        {path:"/about",component:<AboutPage />},
+                        {path:"/gallery",component:<GalleryPage />},
+                        {path:"/profile",component:<ProfilePage />} 
+                      ];
+  const privateRoute = [
+    {path:"/about",component:<AboutPage />},
+    {path:"/gallery",component:<GalleryPage />},
+    {path:"/profile",component:<ProfilePage />} 
+  ];
+  // const [state, dispatch] = useReducer(LayoutReducer, initialState);
+  // console.log(state);
+  // const routes = state.isLoggedIn ? privateRoute : publicRoute
   return (
     <BrowserRouter>
       <PublicLayout>
         <Switch>
-          <Route path="/about">
+          {
+            publicRoute.map((item,index)=>{
+              return (
+                <Route key={index} path={item.path}>
+                  {item.component}
+                </Route>
+              )
+            })
+          }
+          {/* <Route path="/about">
             <AboutPage />
           </Route>
           <Route path="/gallery">
             <GalleryPage />
-          </Route>
-          <Route path="/academic">
+          </Route> */}
+          {/* <Route path="/academic">
             <AcademicPage />
           </Route>
           <Route path="/users">
@@ -122,6 +147,7 @@ export default function Router() {
             <Main />
 
           </Route>
+         */}
         </Switch>
       </PublicLayout>
     </BrowserRouter>
