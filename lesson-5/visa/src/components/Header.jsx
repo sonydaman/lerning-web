@@ -3,9 +3,16 @@ import { Button, Dropdown, DropdownButton, Form, FormControl, Nav, Navbar } from
 import { useLayout } from '../hooks/LayoutHook';
 import "../style/header.css";
 
-
+//
 export const Header = () => {
     const {dispatch,state} = useLayout();
+    const handlebtn =()=>{
+      dispatch({
+        type:"UpdateGallary"
+      })
+    }
+
+    console.log(state)
     const handel= ()=>{
       // if(state.isLoggedIn)
       //   dispatch({type:'logOut'})
@@ -37,7 +44,7 @@ export const Header = () => {
               <FormControl type="email" placeholder="abc@email.com" className="mr-sm-2" />
               <FormControl type="password" placeholder="Password" className="mr-sm-2" />  
         </Form> */}
-        
+        {
         <div className="drop-btn">
         <DropdownButton
          menuAlign="right"
@@ -53,9 +60,13 @@ export const Header = () => {
           <Dropdown.Item className="drop" href="#/action-3">Sign Out</Dropdown.Item>
         </DropdownButton>
         </div>
+        }
        {/* <Button onClick={handel}>
             {state.isLoggedIn ? 'Sign Out' : 'Login'}
           </Button> */}
+          <Button onClick={handlebtn}>
+            getGallaryData
+          </Button>
       </div>
       </Navbar>
       

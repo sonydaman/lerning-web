@@ -2,11 +2,19 @@ import { createContext, useContext } from "react";
 // const initialData = { theme: "green" };
 const LayoutContext = createContext();
 const useLayout = () => useContext(LayoutContext);
-const initialState = { count: 0, userProfile: {}, isLoggedIn: false };
+const initialState = { count: 0, userProfile: {}, isLoggedIn: false, Gallaries:[] };
 
+//dispatch function
+// bring new data all time.
 function LayoutReducer(state, action) {
   console.log(state, action);
   switch (action.type) {
+    case "UpdateGallary":
+      return {...state,Gallaries:[{
+        title:"title-1",
+        img: "https://unsplash.it/200/200"
+      }]}
+    // it update 5th line
     case "loggedIn":
       // state.isLoggedIn = true;
       // return state;

@@ -74,6 +74,7 @@ export const Main = () => {
             </Form.File>
           </div>
         <PostComponent />
+        
         </div>        
       </div>
     </div>
