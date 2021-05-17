@@ -26,65 +26,60 @@ function SignUpComponent(props) {
         <div className="Login-Box text-center">
           <div className="Login-logo">SIGN UP</div>
           <div className="form-container">
-            {
-             isValid.success &&
-              <Alert variant='success'>
-              {isValid.msg}
-            </Alert>
-            }
-            {
-              isValid.error &&
-              <Alert variant='danger'>
-              {isValid.msg}
-            </Alert>
-            }
-            <p>{title}</p>
-            {/* <p>{emailVal}</p>
-            <p>{pwdVal}</p> */}
-            <Form>
-              <Row>
-                <Col lg={8} md={8} sm={8}>
-                  <input
-                    type="email"
-                    className="input-field"
-                    placeholder={inputT}
-                    name="email"
-                    onChange={handelEmail}
-                  />
-                </Col>
-              </Row>
-              <Row>
-                <Col  lg={8} md={8} sm={8}>
-                  <input
-                    type="password"
-                    className="input-field"
-                    placeholder={inputText}
-                    name="Password"
-                    onChange={handelPwd}
-                  />
-                </Col>
-              </Row>
-              {isRemember && <Row>
-                <Col>
-                  <input
-                    type="checkbox"
-                    className="form-check-input"
-                    id="dropdownCheck"
-                  />
-                  <FormLabel className="form-check-label" htmlFor="dropdownCheck">
-                    Remember me
-                  </FormLabel>
-                </Col>
-              </Row>}
-              <Row>
-                <Col>
-                  <Button onClick={handelSubmit} className="submit-btn"type="button">{btnText}</Button>
-                </Col>
-              </Row>
-            </Form>
-          </div>
+                {
+                        isValid.success &&
+                        <Alert variant='success'>
+                        {isValid.msg}
+                        </Alert>
+                        }
+                        {
+                        isValid.error &&
+                        <Alert variant='danger'>
+                        {isValid.msg}
+                        </Alert>
+                }
+                <p>{title}</p>
+                {/* <p>{emailVal}</p>
+                <p>{pwdVal}</p> */}
+
+             <Form>
+                <Form.Row>
+                    <Form.Group as={Col} controlId="formGridName">
+                    <Form.Label></Form.Label>
+                    <Form.Control type="Name" placeholder="Enter Name" />
+                    </Form.Group>
+
+                    <Form.Group as={Col} controlId="formGridSurName">
+                    <Form.Label></Form.Label>
+                    <Form.Control type="surname" placeholder="Enter Surname" />
+                    </Form.Group>
+                </Form.Row>
+
+                <Form.Group controlId="formGridMobileNumber">
+                    <Form.Label></Form.Label>
+                    <Form.Control placeholder="Enter Mobile number or email address" />
+                </Form.Group>
+
+                <Form.Group controlId="formGridPassword">
+                    <Form.Label></Form.Label>
+                    <Form.Control type = "password" placeholder="Enter New Password" />
+                </Form.Group>
+                <Form.Group controlId="dob">
+                            <Form.Label> Date of Birth</Form.Label>
+                            <Form.Control type="date" name="dob" placeholder="Date of Birth" />
+                 </Form.Group>
+
+              
+                <Button variant="success"
+                >Sign Up
+                </Button>
+                </Form>
+                        
+                    
+               
+            </div>
         </div>
-    )
+                    )
 }
 
 SignUpComponent.propTypes = {
