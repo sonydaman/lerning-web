@@ -54,7 +54,9 @@ export const Sidebar = () => {
         ] : [
                 {url:'/signin',linkText:'Sign In'},
                 {url:'/contact',linkText:'ContactPage'},
-                {url:'/schoolGallery',linkText:'School Gallery'}
+                {url:'/schoolGallery',linkText:'School Gallery'},
+                
+                {url:'/Createnewaccount',linkText:'Create new account'}
             ]
     // const signIn =[{...handelItem}];
     //  {state.isLoggedIn ? 'Profile' : 'Login'}
