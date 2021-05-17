@@ -53,7 +53,8 @@ export const Sidebar = () => {
 
         ] : [
                 {url:'/signin',linkText:'Sign In'},
-                {url:'/contact',linkText:'ContactPage'}
+                {url:'/contact',linkText:'ContactPage'},
+                {url:'/schoolGallery',linkText:'School Gallery'}
             ]
     // const signIn =[{...handelItem}];
     //  {state.isLoggedIn ? 'Profile' : 'Login'}

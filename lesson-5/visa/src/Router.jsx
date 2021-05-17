@@ -26,6 +26,7 @@ import GayatriPage from "./Pages/GayatriPage";
 import AltPage from "./Pages/AltPage";
 import WindowPage from "./Pages/WindowPage";
 import { initialState, LayoutReducer, useLayout } from "./hooks/LayoutHook";
+import SchoolGalleryPage from "./Pages/SchoolGalleryPage";
 
 export default function Router() {
   const publicRoute = [
@@ -34,7 +35,8 @@ export default function Router() {
                         {path:"/about",component:<AboutPage />},
                         {path:"/gallery",component:<GalleryPage />},
                         {path:"/profile",component:<ProfilePage />},
-                        {path:"/main",component:<Main />} 
+                        {path:"/main",component:<Main />},
+                        {path:"/schoolGallery",component:<SchoolGalleryPage />} 
                       ];
   const privateRoute = [
     
