@@ -33,9 +33,11 @@ export default function Router() {
                         {path:"/contact",component:<ContactUsPage />},
                         {path:"/about",component:<AboutPage />},
                         {path:"/gallery",component:<GalleryPage />},
-                        {path:"/profile",component:<ProfilePage />} 
+                        {path:"/profile",component:<ProfilePage />},
+                        {path:"/main",component:<Main />} 
                       ];
   const privateRoute = [
+    
     {path:"/about",component:<AboutPage />},
     {path:"/gallery",component:<GalleryPage />},
     {path:"/profile",component:<ProfilePage />} 

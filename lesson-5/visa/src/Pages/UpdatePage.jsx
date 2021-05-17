@@ -1,7 +1,7 @@
 import React from 'react'
 import propTypes from 'prop-types'
-import Achievement from '../Components/Achievement'
-import Achievements from '../Components/Achievement'
+//import Achievement from '../Components/Achievement'
+import Achievements from '../Components/Achievements'
 
 const UpdatePage = props => {
     return (
