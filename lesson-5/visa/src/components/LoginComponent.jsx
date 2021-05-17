@@ -1,14 +1,46 @@
-import React from 'react'
+import React, { useState } from 'react'
 // import PropTypes from 'prop-types'
-import { Button, Col, Form, FormLabel, Row } from 'react-bootstrap'
+import { Alert, Button, Col, Form, FormLabel, Row } from 'react-bootstrap'
 
 function LoginComponent(props) {
     const {title,btnText,inputText,inputT,isRemember}=props;
+    const [isValid, setIsValid] = useState({});
+    const [emailVal, setEmailVal] = useState('');
+    const [pwdVal, setPwdVal] = useState('');
+    const result = {emailVal:'test@test.com',pwdVal:'123456'}
+    const handelEmail = (e)=>{
+      setEmailVal(e.currentTarget.value)
+    }
+    const handelPwd = (e)=>{
+      setPwdVal(e.currentTarget.value)
+    }
+    const handelSubmit =()=>{
+     if(result.emailVal === emailVal && result.pwdVal === pwdVal) {
+        setIsValid({error:false,success:true,msg:'Login Success'})
+     }
+     else{
+       setIsValid({error:true,success:false,msg:'Invalid User name or password'})
+     }
+    }
     return (
         <div className="Login-Box text-center">
           <div className="Login-logo">FUNBOOK</div>
           <div className="form-container">
+            {
+             isValid.success &&
+              <Alert variant='success'>
+              {isValid.msg}
+            </Alert>
+            }
+            {
+              isValid.error &&
+              <Alert variant='danger'>
+              {isValid.msg}
+            </Alert>
+            }
             <p>{title}</p>
+            {/* <p>{emailVal}</p>
+            <p>{pwdVal}</p> */}
             <Form>
               <Row>
                 <Col lg={8} md={8} sm={8}>
@@ -17,6 +49,7 @@ function LoginComponent(props) {
                     className="input-field"
                     placeholder={inputT}
                     name="email"
+                    onChange={handelEmail}
                   />
                 </Col>
               </Row>
@@ -27,6 +60,7 @@ function LoginComponent(props) {
                     className="input-field"
                     placeholder={inputText}
                     name="Password"
+                    onChange={handelPwd}
                   />
                 </Col>
               </Row>
@@ -44,7 +78,7 @@ function LoginComponent(props) {
               </Row>}
               <Row>
                 <Col>
-                  <Button className="submit-btn"type="submit">{btnText}</Button>
+                  <Button onClick={handelSubmit} className="submit-btn"type="button">{btnText}</Button>
                 </Col>
               </Row>
             </Form>
