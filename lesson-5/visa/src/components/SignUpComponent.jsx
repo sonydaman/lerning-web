@@ -7,16 +7,21 @@ function SignUpComponent(props) {
     const [isValid, setIsValid] = useState({});
     const [emailVal, setEmailVal] = useState('');
     const [pwdVal, setPwdVal] = useState('');
-    const result = {emailVal:'test@test.com',pwdVal:'123456'}
+    const [dobVal, setDobVal] = useState('');
+    const result = {emailVal:'test@test.com',pwdVal:'123456',dobVal:'11/08/1994'}
     const handelEmail = (e)=>{
       setEmailVal(e.currentTarget.value)
     }
     const handelPwd = (e)=>{
       setPwdVal(e.currentTarget.value)
     }
+    const handelDob = (e)=>{
+      setDobVal(e.currentTarget.value)
+    }
+
     const handelSubmit =()=>{
      if(result.emailVal === emailVal && result.pwdVal === pwdVal) {
-        setIsValid({error:false,success:true,msg:'Login Success'})
+        setIsValid({error:false,success:true,msg:'Congratulation your account is created'})
      }
      else{
        setIsValid({error:true,success:false,msg:'Invalid User name or password'})
@@ -51,13 +56,13 @@ function SignUpComponent(props) {
 
                     <Form.Group as={Col} controlId="formGridSurName">
                     <Form.Label></Form.Label>
-                    <Form.Control type="surname" placeholder="Enter Surname" />
+                    <Form.Control type="Surname" placeholder="Enter Surname" />
                     </Form.Group>
                 </Form.Row>
 
                 <Form.Group controlId="formGridMobileNumber">
                     <Form.Label></Form.Label>
-                    <Form.Control onChange={handelEmail} placeholder="Enter Mobile number or email address" />
+                    <Form.Control onChange={handelEmail} placeholder="Enter email address" />
                 </Form.Group>
 
                 <Form.Group controlId="formGridPassword">
@@ -66,7 +71,7 @@ function SignUpComponent(props) {
                 </Form.Group>
                 <Form.Group controlId="dob">
                             <Form.Label> Date of Birth</Form.Label>
-                            <Form.Control type="date" name="dob" placeholder="Date of Birth" />
+                            <Form.Control onChange={handelDob} type="date" name="dob" placeholder="Date of Birth" />
                  </Form.Group>
 
               
