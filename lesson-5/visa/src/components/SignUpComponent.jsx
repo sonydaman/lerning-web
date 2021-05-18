@@ -57,12 +57,12 @@ function SignUpComponent(props) {
 
                 <Form.Group controlId="formGridMobileNumber">
                     <Form.Label></Form.Label>
-                    <Form.Control placeholder="Enter Mobile number or email address" />
+                    <Form.Control onChange={handelEmail} placeholder="Enter Mobile number or email address" />
                 </Form.Group>
 
                 <Form.Group controlId="formGridPassword">
                     <Form.Label></Form.Label>
-                    <Form.Control type = "password" placeholder="Enter New Password" />
+                    <Form.Control onChange={handelPwd} type = "password" placeholder="Enter New Password" />
                 </Form.Group>
                 <Form.Group controlId="dob">
                             <Form.Label> Date of Birth</Form.Label>
@@ -70,7 +70,7 @@ function SignUpComponent(props) {
                  </Form.Group>
 
               
-                <Button variant="success"
+                <Button onClick={handelSubmit} variant="success"
                 >Sign Up
                 </Button>
                 </Form>
