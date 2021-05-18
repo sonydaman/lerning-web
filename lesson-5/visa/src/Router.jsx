@@ -28,6 +28,7 @@ import WindowPage from "./Pages/WindowPage";
 import { initialState, LayoutReducer, useLayout } from "./hooks/LayoutHook";
 import SchoolGalleryPage from "./Pages/SchoolGalleryPage";
 import Createnewaccount from "./Pages/Createnewaccount";
+import ExampleForUseState from "./Examples/ExampleForUseState";
 
 
 export default function Router() {
@@ -38,6 +39,7 @@ export default function Router() {
                         {path:"/gallery",component:<GalleryPage />},
                         {path:"/profile",component:<ProfilePage />},
                         {path:"/main",component:<Main />},
+                        {path:"/useState",component:<ExampleForUseState />},
                         {path:"/schoolGallery",component:<SchoolGalleryPage />},
                         {path :"/Createnewaccount", component:<Createnewaccount/>}
                       ];
