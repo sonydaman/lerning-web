@@ -29,6 +29,7 @@ import { initialState, LayoutReducer, useLayout } from "./hooks/LayoutHook";
 import SchoolGalleryPage from "./Pages/SchoolGalleryPage";
 import Createnewaccount from "./Pages/Createnewaccount";
 import ExampleForUseState from "./Examples/ExampleForUseState";
+import AnotherExample from "./Examples/AnotherExample";
 
 
 export default function Router() {
@@ -40,6 +41,7 @@ export default function Router() {
                         {path:"/profile",component:<ProfilePage />},
                         {path:"/main",component:<Main />},
                         {path:"/useState",component:<ExampleForUseState />},
+                        {path:"/example",component:<AnotherExample />},
                         {path:"/schoolGallery",component:<SchoolGalleryPage />},
                         {path :"/Createnewaccount", component:<Createnewaccount/>}
                       ];

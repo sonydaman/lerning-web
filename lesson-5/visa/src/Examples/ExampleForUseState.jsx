@@ -7,9 +7,10 @@ const ExampleForUseState = props => {
          setTable(e.currentTarget.value)
     }
     const renderTable = ()=>{
-        const isNumber = Number(table);
-        console.log(isNumber)
-        if(isNumber !== NaN){
+        
+        const isNumber = Number.isInteger(parseInt(table));
+        // console.log(isNumber,table,typeof table)
+        if(isNumber){
             var res = [1,2,3,4,5,6,7,8,9,10];
             // res.length = table;
             // let index = 0;

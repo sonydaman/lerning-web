@@ -57,6 +57,7 @@ export const Sidebar = () => {
                 {url:'/schoolGallery',linkText:'School Gallery'},
                 
                 {url:'/useState',linkText:'Example of use state'},
+                {url:'/example',linkText:'Another Example'},
                 {url:'/Createnewaccount',linkText:'Create new account'}
             ]
     // const signIn =[{...handelItem}];
