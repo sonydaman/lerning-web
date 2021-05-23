@@ -43,7 +43,9 @@ export default function Router() {
                         {path:"/useState",component:<ExampleForUseState />},
                         {path:"/example",component:<AnotherExample />},
                         {path:"/schoolGallery",component:<SchoolGalleryPage />},
-                        {path :"/Createnewaccount", component:<Createnewaccount/>}
+                        {path :"/Createnewaccount", component:<Createnewaccount/>},
+                        {path:"/product",component:<ProductPage />},
+                        
                       ];
   const privateRoute = [
     
