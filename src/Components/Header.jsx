@@ -1,22 +1,23 @@
 import React from "react";
-// import {
-//   Header as Head,
-//   Icon,
-//   Image,
-//   Menu,
-//   Segment,
-//   Sidebar,
-// } from "semantic-ui-react";
-
+import { Link } from "react-router-dom";
+import { HeaderStyle } from '../Styles/Header'
 export const Header = () => {
   return (
-    <div className="header">
+    <HeaderStyle>
       <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Gallery</li>
-          <li>Contact Us</li>
+          <li>
+            <Link to="/home">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/gallery">Gallery</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact Us</Link>
+          </li>
       </ul>
-    </div>
+    </HeaderStyle>
   );
 };

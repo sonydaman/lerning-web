@@ -7,13 +7,13 @@ export const SideBar = () => {
             <nav>
                 <ul>
                     <li>
-                    <Link to="/home">Home</Link>
+                    <Link to="/categories">Categories</Link>
                     </li>
                     <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/products">Products</Link>
                     </li>
                     <li>
-                    <Link to="/gallery">Gallery</Link>
+                    <Link to="/new-products">New Products</Link>
                     </li>
                 </ul>
         </nav>
