@@ -5,7 +5,7 @@ import { Footer } from '../Footer'
 
 const LandingLayout = props => {
     return (
-        <div>
+        <div className='landing-layout'>
             <Header />
             {props.children}
             <Footer />

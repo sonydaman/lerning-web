@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { HeaderStyle } from '../Styles/Header'
 export const Header = () => {
   return (
-    <HeaderStyle>
+    <HeaderStyle className="header">
       <ul>
           <li>
             <Link to="/home">Home</Link>

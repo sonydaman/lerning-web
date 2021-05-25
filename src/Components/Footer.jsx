@@ -5,7 +5,7 @@ import { Button } from '../Styles/Button'
 
 export const Footer = () => {
     return (
-        <div>
+        <div className="footer">
             footer
            <Button>Btn</Button> 
            <Button primary>Btn</Button> 
