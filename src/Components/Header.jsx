@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HeaderStyle } from '../Styles/Header'
-export const Header = () => {
+export const Header = (props) => {
   return (
     <HeaderStyle className="header">
       <ul>
