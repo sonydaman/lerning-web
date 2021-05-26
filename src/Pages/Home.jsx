@@ -1,25 +1,40 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
-
-
+import Card from '../Components/Card'
+import HomeData from "../data/home.json";
 export const Home = () => {
+    const {heroImg,cards} = HomeData;
+    return (
+        <div className="home-page">
+            <div className="hero-img">
+                <img src={heroImg} alt="hero-image" />
+            </div>
+            <div className="sections">
+                {
+                    cards.map((card)=>{
+                        return <Card cards={card} />
+                    })
+                }
+                
+                {/* <div className="section">
+                    <h1>Heading 1</h1>
+                    <img src="https://unsplash.it/300/300" alt="section-img" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, quia perferendis voluptates inventore magni vel vitae dolorem in. Quaerat minima tempore repellendus quia similique quasi enim officiis. Dignissimos, hic eos?</p>
 
-    return ( 
-        <div>
-            <section className="hero">
-                <div className="hero-body">
-                    <div className="container">
-                     <h1 className="title">
-                        Soaring to new heights                   
-                     </h1>
-                    </div>
-                    <div className="is-two-thirds column is paddingless">
-                       <h2 className="subtitle is-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut autem, sapiente, quisquam dolorum ex aut dolores sequi officia porro quasi nesciunt quos rerum alias ipsam harum dolorem enim? Hic, ut.</h2>
-                    </div>
-                    <a className="button is-large is-primary" id="learn">
-                     Learn more
-                    </a>
                 </div>
-            </section>
+                <div className="section">
+                    <h1>Heading 1</h1>
+                    <img src="https://unsplash.it/300/300" alt="section-img" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, quia perferendis voluptates inventore magni vel vitae dolorem in. Quaerat minima tempore repellendus quia similique quasi enim officiis. Dignissimos, hic eos?</p>
+
+                </div>
+                <div className="section">
+                    <h1>Heading 1</h1>
+                    <img src="https://unsplash.it/300/300" alt="section-img" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, quia perferendis voluptates inventore magni vel vitae dolorem in. Quaerat minima tempore repellendus quia similique quasi enim officiis. Dignissimos, hic eos?</p>
+
+                </div> */}
+            </div>
         </div>
     )
 }

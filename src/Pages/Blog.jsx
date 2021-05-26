@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Gallery = () => {
+export const Blog = () => {
     return (
         <div>
-                Gallery
+            Blog
         </div>
     )
 }

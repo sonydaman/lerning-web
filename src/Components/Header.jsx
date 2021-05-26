@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HeaderStyle } from '../Styles/Header'
-export const Header = () => {
+export const Header = (props) => {
   return (
-    <HeaderStyle>
+    <HeaderStyle className="header">
       <ul>
           <li>
             <Link to="/home">Home</Link>
@@ -13,6 +13,9 @@ export const Header = () => {
           </li>
           <li>
             <Link to="/gallery">Gallery</Link>
+          </li>
+          <li>
+            <Link to="/blog">Blog</Link>
           </li>
           <li>
             <Link to="/contact">Contact Us</Link>

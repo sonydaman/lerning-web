@@ -2,32 +2,41 @@ import styled from 'styled-components'
 
 
 export const HeaderStyle = styled.div`
-    background-color: tomato;
+    background-color: #0e0e29;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 80px;
 
     ul{
         display: flex;
-        gap: 2em;
+        gap: 1em;
         justify-content: space-around;
-        height: 100px;
         align-items: center;
 
         li{
             list-style: none;
             color:#fff;
             height: 100%;
-            display: inline-flex;
+            font-size: 12px;
+            display: flex;
             align-items: center;
             justify-content: center;
-            width: 20%;
+            border: 2px solid #6b6b6b;
+            border-radius: 20px;
+            width: 80px;
+            height: 35px;
 
             &:hover{
-                background-color: #fff;
-                color:#000;
+                background-color: #ecd4d4;
+                color:#fff9f9;
                 cursor: pointer;
+                
             }
 
             a{
-                display:block
+                display:block;
+                
             }
         }
     }

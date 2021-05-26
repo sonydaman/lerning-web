@@ -13,9 +13,15 @@ export const PublicLayout = (props) => {
                 <Grid.Column width={3}>
                     <SideBar />
                 </Grid.Column>
-                <Grid.Column width={13}>
+                <Grid.Column width={10}>
                     {props.children}
                 </Grid.Column>
+                {
+                props.type === "blog" &&
+                <Grid.Column width={3}>
+                    RightSideBar
+                </Grid.Column>
+                }
                 </Grid.Row>
 
             </Grid>
