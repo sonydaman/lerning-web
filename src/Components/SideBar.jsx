@@ -16,7 +16,7 @@ export const SideBar = () => {
                     <Link to="/new-products">New Products</Link>
                     </li>
                 </ul>
-        </nav>
+           </nav>
         </div>
     )
 }

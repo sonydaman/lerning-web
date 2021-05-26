@@ -9,7 +9,7 @@
     height: 100px;
     align-items: center;
 }
-.header > ul li{
+.header > ul li{ 
     list-style: none;
     color:#fff;
     height: 100%;
