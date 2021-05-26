@@ -10,6 +10,8 @@ export const Layout = (props) => {
             case '/home':
             case '/about':
                 return <LandingLayout>{props.children}</LandingLayout>
+            case '/blog':
+                return <PublicLayout type="blog">{props.children}</PublicLayout>
             case '/gallery':
             case '/contact':
                 return <PublicLayout>{props.children}</PublicLayout>

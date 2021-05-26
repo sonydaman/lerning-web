@@ -15,6 +15,9 @@ export const Header = (props) => {
             <Link to="/gallery">Gallery</Link>
           </li>
           <li>
+            <Link to="/blog">Blog</Link>
+          </li>
+          <li>
             <Link to="/contact">Contact Us</Link>
           </li>
       </ul>
