@@ -20,6 +20,7 @@ export const Header = (props) => {
           <li>
             <Link to="/contact">Contact Us</Link>
           </li>
+          
       </ul>
     </HeaderStyle>
   );
