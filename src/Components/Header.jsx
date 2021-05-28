@@ -1,10 +1,49 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Container, Dropdown, Image, Menu } from "semantic-ui-react";
 import { HeaderStyle } from '../Styles/Header'
 export const Header = (props) => {
   return (
     <HeaderStyle className="header">
-      <ul>
+        <Menu fixed='top' inverted>
+      <Container>
+        <Menu.Item header>
+          <Image size='mini' src='https://unsplash.it/200/200?id=2' style={{ marginRight: '1.5em' }} />
+          CRYSTELS
+        </Menu.Item>
+        <Menu.Item as='a'>
+        <Link to="/home">Home</Link>
+          </Menu.Item>
+
+        <Dropdown item simple text='Dropdown'>
+          <Dropdown.Menu>
+            <Dropdown.Item>
+            <Link to="/about" style={{ color: 'black' }}>About</Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+            <Link to="/gallery" style={{ color: 'black' }}>Gallery</Link>
+            </Dropdown.Item>
+            <Dropdown.Divider />
+            <Dropdown.Header>Header Item</Dropdown.Header>
+            <Dropdown.Item>
+              <i className='dropdown icon' />
+              <span className='text'>Others</span>
+              <Dropdown.Menu>
+                <Dropdown.Item style={{ color: 'black' }}><Link to="/blog">Blog</Link></Dropdown.Item>
+                <Dropdown.Item style={{ color: 'black' }}>
+                <Link to="/contact">Contact Us</Link>
+                </Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown.Item>
+            <Dropdown.Item>List Item</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+      </Container>
+    </Menu>
+
+
+      {/* <ul>
           <li>
             <Link to="/home">Home</Link>
           </li>
@@ -21,7 +60,7 @@ export const Header = (props) => {
             <Link to="/contact">Contact Us</Link>
           </li>
           
-      </ul>
+      </ul> */}
     </HeaderStyle>
   );
 };
