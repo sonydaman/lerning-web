@@ -16,7 +16,7 @@ export const Header = (props) => {
         <Link to="/home">Home</Link>
           </Menu.Item>
 
-        <Dropdown item simple text='Dropdown'>
+        <Dropdown item simple text='Others'>
           <Dropdown.Menu>
             <Dropdown.Item>
             <Link to="/about" style={{ color: 'black' }}>About</Link>
@@ -24,7 +24,13 @@ export const Header = (props) => {
             <Dropdown.Item>
             <Link to="/gallery" style={{ color: 'black' }}>Gallery</Link>
             </Dropdown.Item>
-            <Dropdown.Divider />
+            <Dropdown.Item>
+            <Link to="/blog" style={{ color: 'black' }}>Blog</Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+            <Link to="/contact" style={{ color: 'black' }}>Contact Us</Link>
+            </Dropdown.Item>
+            {/* <Dropdown.Divider />
             <Dropdown.Header>Header Item</Dropdown.Header>
             <Dropdown.Item>
               <i className='dropdown icon' />
@@ -35,8 +41,8 @@ export const Header = (props) => {
                 <Link to="/contact">Contact Us</Link>
                 </Dropdown.Item>
               </Dropdown.Menu>
-            </Dropdown.Item>
-            <Dropdown.Item>List Item</Dropdown.Item>
+            </Dropdown.Item> */}
+            {/* <Dropdown.Item>List Item</Dropdown.Item> */}
           </Dropdown.Menu>
         </Dropdown>
       </Container>
