@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 
 export const HeaderStyle = styled.div`
-    background-color: #0e0e29;
+    /* background-color: #0e0e29;
     padding: 0;
     margin: 0;
     display: flex;
@@ -39,5 +39,5 @@ export const HeaderStyle = styled.div`
                 
             }
         }
-    }
+    } */
 `
