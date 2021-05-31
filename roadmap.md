@@ -1,0 +1,9 @@
+https://flone.reactdemo.hasthemes.com/shop-grid-standard
+https://wokiee.reactdemo.hasthemes.com/home/six
+http://lezada.reactdemo.hasthemes.com/home/decor
+home
+store
+account
+about
+contact-us
+cart

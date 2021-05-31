@@ -3,12 +3,12 @@ import { Grid } from 'semantic-ui-react'
 import { Footer } from '../Footer'
 import { Header } from '../Header'
 import { SideBar } from '../SideBar'
-
+import "../../Css/PublicLayout.css"
 export const PublicLayout = (props) => {
     return (
         <div>
            <Header />
-            <Grid celled>
+            <Grid celled className="grid-container">
                 <Grid.Row>
                 <Grid.Column width={3}>
                     <SideBar />
