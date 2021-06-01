@@ -1,6 +1,4 @@
 import React from 'react'
-
-import { Button } from '../Styles/Button'
 import { FooterStyled } from '../Styles/Footer'
 
 
@@ -8,9 +6,10 @@ import { FooterStyled } from '../Styles/Footer'
 export const Footer = () => {
     return (
         <FooterStyled className="footer">
-            footer
-           <Button>Btn</Button> 
-           <Button primary>Btn</Button> 
+            <hr />
+            <h4>
+                @2021 Crystals Private Limited
+            </h4>
         </FooterStyled>
     )
 }

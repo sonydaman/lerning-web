@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const AboutStyled = styled.div`
-    margin-top: 80px;
+    margin-top: 20px;
     text-align: center;
     hr{
         height: 5px;
@@ -17,7 +17,7 @@ export const AboutStyled = styled.div`
     }
     .Cards{
         margin-left: 70px;
-        margin-right: 70px;
+        margin-right: 70px;    
     }
 
     

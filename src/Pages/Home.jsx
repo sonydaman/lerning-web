@@ -1,13 +1,17 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
+import { Image } from 'semantic-ui-react';
 import Card from '../Components/Card'
 import HomeData from "../data/home.json";
+import { HomeStyled } from '../Styles/Home';
 export const Home = () => {
     const {heroImg,cards} = HomeData;
     return (
+        <HomeStyled>
         <div className="home-page">
+        
             <div className="hero-img">
-                <img src={heroImg} alt="hero-image" />
+                <Image src= {heroImg} fluid />
             </div>
             <div className="sections">
                 {
@@ -36,5 +40,6 @@ export const Home = () => {
                 </div> */}
             </div>
         </div>
+        </HomeStyled>
     )
 }

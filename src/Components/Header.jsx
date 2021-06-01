@@ -1,21 +1,46 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Image } from "semantic-ui-react";
 // import { Link } from "react-router-dom";
-import { Button, Container, Dropdown, Image, Menu } from "semantic-ui-react";
-import { HeaderStyle } from '../Styles/Header'
+import { HeaderStyled } from '../Styles/Header'
 export const Header = (props) => {
+
+  
   return (
-    <HeaderStyle className="header">
+    <HeaderStyled>
+        <div className="nav-left">
+        <Image size='mini' src='https://unsplash.it/200/200?id=2' circular />
+          <h2>
+            CRYSTALS
+          </h2>
+          <button><a href="/home">Home</a></button>
+            
+          <button><a href="/about">About</a></button>
+              
+          <button><a href="/gallery">Gallery</a></button>
+            
+          <button><a href="/blog">Blog</a></button>
+            
+          <button><a href="/contact">Contact</a></button>
+
+          
+                 
+        </div>
+        <div className="nav-right">
+          <button className="toggle"><a href="/contact">More</a></button>
+        </div>
+
+{/*       
         <Menu fixed='top' inverted>
       <Container>
         <Menu.Item header>
-          <Image size='mini' src='https://unsplash.it/200/200?id=2' style={{ marginRight: '1.5em' }} />
+        <Image size='mini' src='https://unsplash.it/200/200?id=2' circular />
+        <h2>
           CRYSTELS
+        </h2>        
         </Menu.Item>
         <Menu.Item as='a'>
         <Link to="/home">Home</Link>
           </Menu.Item>
-
         <Dropdown item simple text='Others'>
           <Dropdown.Menu>
             <Dropdown.Item>
@@ -29,50 +54,17 @@ export const Header = (props) => {
             </Dropdown.Item>
             <Dropdown.Item>
             <Link to="/contact" style={{ color: 'black' }}>Contact Us</Link>
-            </Dropdown.Item>
-            {/* <Dropdown.Divider />
-            <Dropdown.Header>Header Item</Dropdown.Header>
-            <Dropdown.Item>
-              <i className='dropdown icon' />
-              <span className='text'>Others</span>
-              <Dropdown.Menu>
-                <Dropdown.Item style={{ color: 'black' }}><Link to="/blog">Blog</Link></Dropdown.Item>
-                <Dropdown.Item style={{ color: 'black' }}>
-                <Link to="/contact">Contact Us</Link>
-                </Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown.Item> */}
-            {/* <Dropdown.Item>List Item</Dropdown.Item> */}
+            </Dropdown.Item>            
           </Dropdown.Menu>
         </Dropdown>
-        <div>
+        <div className="btn-acc">
           <Button positive>Log In</Button>
         </div>
-        <div>
+        <div className="btn-acc">
           <Button positive>New User</Button>
         </div>
       </Container>
-    </Menu>
-
-
-      {/* <ul>
-          <li>
-            <Link to="/home">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/gallery">Gallery</Link>
-          </li>
-          <li>
-            <Link to="/blog">Blog</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact Us</Link>
-          </li>
-          
-      </ul> */}
-    </HeaderStyle>
+    </Menu> */}
+    </HeaderStyled>
   );
 };
