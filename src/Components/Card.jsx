@@ -2,7 +2,8 @@ import React from 'react'
 import { Card as CardUI, Icon } from 'semantic-ui-react'
 // import { DefaultCard } from '../images'
 const extra = (
-  <a>
+
+  <a href="icon">
     <Icon name='user' />
     16 Friends
   </a>

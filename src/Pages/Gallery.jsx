@@ -68,7 +68,7 @@ export const Gallery = () => {
     <Feed>
                 <Feed.Event>
                   <Feed.Label>
-                    <img src='https://unsplash.it/500/400?id=10' />
+                    <img src='https://unsplash.it/500/400?id=10' alt =""/>
                   </Feed.Label>
                   <Feed.Content>
                     <Feed.Summary>
@@ -87,15 +87,15 @@ export const Gallery = () => {
                   <Feed.Label image='https://unsplash.it/500/400?id=11'/>
                   <Feed.Content>
                     <Feed.Summary>
-                      <a>Helen Troy</a> added <a>2 new illustrations</a>
+                      <a href ="tag">Helen Troy</a> added <a href="tag">2 new illustrations</a>
                       <Feed.Date>4 days ago</Feed.Date>
                     </Feed.Summary>
                     <Feed.Extra images>
-                      <a>
-                        <img src='https://unsplash.it/500/400?id=12' />
+                      <a href="img">
+                        <img src='https://unsplash.it/500/400?id=12' alt="img"/>
                       </a>
-                      <a>
-                        <img src='https://unsplash.it/500/400?id=13' />
+                      <a href="img">
+                        <img src='https://unsplash.it/500/400?id=13' alt="img"/>
                       </a>
                     </Feed.Extra>
                     <Feed.Meta>

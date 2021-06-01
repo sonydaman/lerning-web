@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
-import { Container, Dropdown, Image, Menu } from "semantic-ui-react";
+import { Button, Container, Dropdown, Image, Menu } from "semantic-ui-react";
 import { HeaderStyle } from '../Styles/Header'
 export const Header = (props) => {
   return (
@@ -45,6 +45,12 @@ export const Header = (props) => {
             {/* <Dropdown.Item>List Item</Dropdown.Item> */}
           </Dropdown.Menu>
         </Dropdown>
+        <div>
+          <Button positive>Log In</Button>
+        </div>
+        <div>
+          <Button positive>New User</Button>
+        </div>
       </Container>
     </Menu>
 

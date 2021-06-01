@@ -2,6 +2,9 @@ import styled from 'styled-components'
 
 
 export const HeaderStyle = styled.div`
+Button{
+    margin-top: 10px;
+}
     /* background-color: #0e0e29;
     padding: 0;
     margin: 0;
